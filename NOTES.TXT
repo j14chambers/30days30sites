@@ -1,0 +1,26 @@
+
+DAY 3:
+--basic facts
+http://181ge72mb8rnbx7z1k119thi.wpengine.netdna-cdn.com/wp-content/uploads/2015/06/ynp-yellowstone-entry-sign.jpg
+
+--header
+http://cdn.history.com/sites/2/2017/03/GettyImages-154931596.jpg
+
+https://anotherheader.files.wordpress.com/2010/11/dsc_9617.jpg
+
+https://www.natureflip.com/sites/default/files/photo//sierra-nevada-national-park-sierra-nevada-is-the-largest-national-park-in-spain.jpg
+
+
+--border
+the border is wrapping around content. could be the reason the footer not covering whole width of page.??
+
+COLORS:
+
+DAY3
+
+#013FA5		RGB(1,63,165)		--BLUE
+#15230E		RGB(21,35,14)		--GREEN
+#63ABE3		RGB(99,168,227)		--LIGHT BLUE
+#A56D05		RGB(165,109,5)		--ORANGE
+#878121		RGB(135,129,33)		--YELLOW
+

@@ -1,0 +1,128 @@
+body{
+    background-color: #373875;
+    margin: 0px 20px;
+}
+.body{
+    margin: 10px;
+    background-color: #373875;
+    color: white;
+}
+.col-60{
+    width: 60%;
+    float: left;
+}
+
+.col-100{
+    width: 100%;
+    float: left;
+}
+
+.col-30{
+    width: 30%;
+    float: left;
+}
+
+.col-50{
+    width: 45%;
+    float: left;
+    
+}
+
+.box{
+    margin: 5px;
+    padding: 3px;
+    /*background-color: #878121;*/
+    
+}
+.back-box{
+    margin: 5px;
+    padding: 10px;
+    background-color: #A56D05;
+    left: 0;
+    bottom: 0;
+    overflow:hidden;
+    
+}
+
+.ttd-box{
+    margin: 10px;
+    margin-right: 3%;
+    padding: 5px;
+    left: 0;
+    bottom: 0;
+    overflow:hidden;
+    
+}
+
+.img-head{
+    height: 300px;
+    width:  100%;
+}
+
+.img{
+    
+    width: 100%;
+}
+
+a img{
+    text-align: center;
+}
+
+.row {
+  margin: 10px;
+  margin-bottom: 10px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    padding-left: 20px;
+    width: 100%;
+    overflow: hidden;
+    bottom: 0;
+}
+
+h1{
+    color: white;
+    font-size: 66px;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+h2{
+    color: white;
+    font-size: 50px;
+    font-family: 'Fjalla One', sans-serif;
+    
+}
+
+h3{
+    color: white;
+    font-size: 35px;
+    font-family: 'Fjalla One', sans-serif;
+
+}
+
+h4{
+    color: white;
+    font-size: 30px;
+    font-family: 'Fjalla One', sans-serif;
+
+}
+
+h5{
+    color: white;
+    font-size: 15px;
+    font-family: 'Fjalla One', sans-serif;
+
+}
+a, p, ul, li{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Libre Franklin', sans-serif;
+}
+footer p{
+    font-size: 11px;
+}
