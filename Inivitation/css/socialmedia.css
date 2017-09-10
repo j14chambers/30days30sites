@@ -1,0 +1,45 @@
+
+/*FOOTER SOCIAL MEDIA BUTTONS*/
+#index .social-bx{
+    padding: 15px;
+    margin: 5px;
+}
+#index .fb-ic {
+    background-color: #3d5b99;
+    color: white;
+    padding: 4px;
+}
+
+#index .tw-ic {
+    background-color: #00aced;
+    color: white;
+    padding: 4px;
+}
+
+#index .li-ic {
+    background-color: #0073a4;
+    color: white;
+    padding: 4px;
+}
+
+#index .gplus-ic {
+    background-color: #e25714;
+    color: white;
+    padding: 4px;
+}
+#index .git-ic {
+    background-color: #000;.
+    color: white;
+    padding: 4px;
+}
+#index .ins-ic {
+    background-color:  #e95950;
+    color: white;
+    padding: 4px;
+}
+
+#index .icons-sm{
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+}

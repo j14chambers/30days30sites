@@ -1,4 +1,4 @@
-ul{
+#a ul{
     list-style-type: none;
     margin: 10px;
     margin-right: 20px;
@@ -15,7 +15,7 @@ ul{
     border-radius: 5px;
 }
 
-a{
+#a a{
     margin: 10px;
     
     padding: 5px 10px 5px 10px;
@@ -28,7 +28,7 @@ a{
     border-radius: 5px;
 }
 
-a:link,a:visited{
+#a a:link,a:visited{
     display: block;
     background-color: white;
     width:100%;
@@ -38,11 +38,11 @@ a:link,a:visited{
     text-decoration:none;
 }
 
-a:hover,a:active{
+#a a:hover,a:active{
     color: #436C8E;
     background: #0F3759;
 }
-li{
+#a li{
     float: left;
     margin: 10px;
 }

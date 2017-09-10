@@ -1,5 +1,3 @@
-
-
 #index{
 	background-color: black;
 	color: white;
@@ -18,7 +16,10 @@ body{
 	width: 100%;
 	height: 300px;
 }
-
+#index header{
+    border-bottom: solid #c78a10 7px;
+    padding-bottom: 15px;
+}
 .head-box{
 	padding: 30px;
 	width: 100%;
@@ -27,25 +28,38 @@ body{
 }
 #index .head-box h1{
     font-size: 41px;
+    color: #c78a10;
+    
 }
 #index .head-box p{
     font-size: 16px;
 }
 #index p{
-    font-size: 16px;
+    font-size: 18px;
+    font-family: 'Viga', sans-serif;
 }
 #index h1{
 	color: white;
-	font-size: 45px
+	font-size: 45px;
+    font-family: 'Viga', sans-serif;
 }
 
 #index h2{
 	color: white;
-	font-size: 35px
+	font-size: 35px;
+    color: #C78A10;
+    font-family: 'Viga', sans-serif;
+}
+
+#index h3{
+    font-size: 40px;
+    color: #C78A10;
+    font-family: 'Teko', sans-serif;
 }
 #index footer{
     margin: 20px;
     padding: 20px;
+    border-top: solid #c78a10 7px;
 }
 
 /*FOOTER SOCIAL MEDIA BUTTONS*/
