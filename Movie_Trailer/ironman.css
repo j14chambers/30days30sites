@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css?family=Economica|Orbitron:900|Teko:300');
+
+.body{
+	background-color: #A80900;
+	margin: 30px;
+	
+}
+#index footer{
+    margin: 0;
+}
+#index .banner-img{
+	background-image:url('https://dreager1.files.wordpress.com/2012/05/irom-man-artwork-inspiration-33.jpg');
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-position: center right;
+  line-height: 1.3;
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+#index .bottom-img{
+	background-image:url('http://www.ie-wallpapers.com/data/out/131/35837208-iron-man-image.jpg');
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-position: top center;
+  line-height: 1.6;
+	background-size: 100%;
+	padding-top: 800px;
+	padding-bottom: 100px;
+}
+#index .tony-img{
+	background-image:url('http://xdesktopwallpapers.com/wp-content/uploads/2012/07/The%20Avengers%20-%20Robert%20Downey%20Jr.%20Tony%20Stark.jpg');
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-position: top center;
+  line-height: 1.6;
+	background-size: 45%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.potts-img{
+	background-image:url('https://s-media-cache-ak0.pinimg.com/736x/58/ce/29/58ce29bca641f3d0301fbf7bb780fe4f.jpg');
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-position: top center;
+  line-height: 1.6;
+	background-size: 45%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.james-img{
+	background-image:url('http://razoofoundation.org/wp-content/uploads/2011/12/Iron-Man-2-International-Poster-Don-Cheadle-as-James-Rhodes-14-4-10-kc.jpg');
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-position: top center;
+  line-height: 1.6;
+	background-size: 45%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.man-3-img{
+	background-image:url('http://www.impawards.com/2013/posters/iron_man_three_ver9_xlg.jpg');
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-position: top left;
+  line-height: 1.6;
+	background-size: 30%;
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+.man-img{
+	background-image:url('http://images4.fanpop.com/image/photos/20600000/Iron-man-Poster-iron-man-the-movie-20685585-864-1280.jpg');
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-position: top left;
+  line-height: 1.6;
+	background-size: 30%;
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+.man-2-img{
+	background-image:url('http://3.bp.blogspot.com/-XhRvzfyCy6c/Tt3c4fTgWWI/AAAAAAAAISo/jFTm7uar9X8/s1600/iron-man-2-poster.jpg');
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-position: top left;
+  line-height: 1.6;
+	background-size: 30%;
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+#index .img{
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-position: top center;
+  line-height: 1.6;
+	background-size: 45%;
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+
+
+#index h1{
+	text-align: left;
+	font-size: 150px;
+	color: #C2C2C2;
+	font-family: 'Orbitron', sans-serif;
+}
+#index h2{
+	font-family: 'Teko', sans-serif;
+	font-size: 60px;
+	color: white;
+}
+#index h3{
+	font-family: 'Teko', sans-serif;
+	font-size: 50px;
+	color: black;
+}
+#index h4{
+	font-family: 'Teko', sans-serif;
+	font-size: 40px;
+	color: C2C2C2;
+}
+#index h5{
+	font-family: 'Economica', sans-serif;
+	font-size: 20px;
+	color: C2C2C2;
+}
+
+
+#index p{
+	font-family: 'Economica', sans-serif;
+	font-size: 23px;
+	color: #DE9A0C;
+}
+
+#index .black-box{
+	border-color: #DB3200;
+	background-color: #DE9A0C;
+	border-style: solid;
+	border-width: 5px;
+	padding: 10px;
+	margin: 0px;
+}
+.myButton {
+	-moz-box-shadow: 0px 10px 14px -7px #000000;
+	-webkit-box-shadow: 0px 10px 14px -7px #000000;
+	box-shadow: 0px 10px 14px -7px #000000;
+	background-color:#DE9A0C;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	border:2px solid #CE0005;
+	display:inline-block;
+	cursor:pointer;
+	color:#DB3200;
+	font-family:Trebuchet MS;
+	font-size:24px;
+	font-weight:bold;
+	padding:12px 19px;
+	margin: 10px;
+	text-decoration:none;
+	
+}
+.myButton:hover {
+	background-color:#C2C2C2;
+	color: #CE0005;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.menu-btn-border{
+	padding: 5px 30px 5px 30px;
+	text-align: center;
+	
+}
+
+ul {
+	 list-style: none;
+	 display: inline-block;
+	 padding: -10px 30px;
+	 margin: 10px;
+	 
+}
+  ul li {
+	  display: block;
+	  position: relative;
+	  float: left;
+}
+
+  li ul {
+	  display: none;
+}
+  ul li a {
+	  display: block;
+	  background: white;
+	  padding: 5px 10px 5px 10px;
+	  text-decoration: none;
+     white-space: nowrap;
+	  color: #fff;
+}
+  ul li a:hover {
+/* 	  background: #f00; */
+}
+  li:hover ul {
+	  display: block; 
+	  position: relative;
+}
+  li:hover li {
+	  float: none;
+}
+  li:hover a {
+/* 	  background: #f00; */
+      text-decoration: none;
+      
+}
+  li:hover li a:hover {
+/* 	  background: #000; */
+}
+  #drop-nav li ul li {
+	  border-top: 0px;
+}
+.col-30{
+    width: 30%;
+    float: left;
+}
+.col-70{
+    width: 70%;
+}
