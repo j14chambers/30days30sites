@@ -211,6 +211,7 @@ ul {
   li:hover ul {
 	  display: block; 
 	  position: absolute;
+      z-index: 10;
 }
   li:hover li {
 	  float: none;
