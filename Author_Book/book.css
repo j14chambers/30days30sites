@@ -41,6 +41,9 @@ h2{
     font-size: 20px;
     font-family: sans-serif;
 }
+h3{
+    font-size: 16px;
+}
 
 #blue h2{
     color: #5F9EA8;
@@ -60,6 +63,14 @@ blockquote{
 img{
     height: 75px;
     width: auto;
+}
+
+footer{
+    padding: 20px;
+    margin:0;
+}
+footer p{
+    font-size: 15px;
 }
 /* SOCIAL MEDIA BUTTONS*/
 
