@@ -9,30 +9,38 @@
     font-size: 50px;
 }
 #index h3, #index p{
-    color: white;
+    color: #171A28;
     text-align: center;
+}
+#index h4{
+    color: #F08549;
+}
+address{
+    color: #fff;
 }
 #index ul li{
     text-align: center;
 }
 .body{
-    background-size: 100%;
-    background-color: black;
-    color: white;
+    background-color: #171A28;
+    margin: 0;
+    padding: 0;
+    color: black;
+    border: 15px solid #171A28;
 }
 
-header img{
-    width: 100%;
-    height: 600px;
+#index header img{
+    width: 90%;
+    height: 210px;
 }
 
-.box-1{
-    background-color: black;
+#index .box-1{
+    background-color: #F08549;
     width: 100%;
     margin: 0;
 }
-.box-2{
-    background-color: #3E0F06;
+#index .box-2{
+    background-color: #5D381E;
     width: 100%;
     margin: 0;
 }
@@ -54,21 +62,27 @@ img{
 .height-bar-img{
     height: 280px;
 }
-.footer-1{
-    background-color: #3E0F06;
+#index .footer-1{
+    background-color: #171A28;
     width: 100%;
+    margin: 0;
+    border-bottom: 1px solid green;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 .footer-2{
-    background-color: black;
+    background-color: #fff;
     width: 100%;
+    padding-left: 10px;
 }
 #index footer{
     width: 100%;
-    padding-left: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
+    margin: 0px;
 }
 #index footer p{
     text-align: left;
+    color: white;
 }
 
 /*FOOTER SOCIAL MEDIA BUTTONS*/
