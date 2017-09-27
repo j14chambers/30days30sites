@@ -46,7 +46,7 @@
   line-height: 1.6;
 	background-size: 90%;
 	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-bottom: 400px;
     width: 100%;
 }
 
@@ -57,7 +57,7 @@
   line-height: 1.6;
 	background-size: 76%;
 	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-bottom: 400px;
 }
 
 .man-3-img{
@@ -65,10 +65,10 @@
 	background-repeat:no-repeat;
 	background-attachment: fixed;
 	background-position: top left;
-  line-height: 1.6;
+    line-height: 1.6;
 	background-size: 30%;
-	padding-top: 200px;
-	padding-bottom: 200px;
+	padding-top: 100px;
+	padding-bottom: 400px;
 }
 .man-img{
 	background-image:url('http://images4.fanpop.com/image/photos/20600000/Iron-man-Poster-iron-man-the-movie-20685585-864-1280.jpg');
@@ -131,7 +131,6 @@ img{
 	font-size: 20px;
 	color: C2C2C2;
 }
-
 
 #index p{
 	font-family: 'Economica', sans-serif;
@@ -216,7 +215,7 @@ ul {
   li:hover li {
 	  float: none;
 }
-  li:hover a {
+  li:hover a{
 /* 	  background: #f00; */
       text-decoration: none;
       
@@ -243,4 +242,12 @@ ul {
 }
 .row-h{
     height: 500px;
+}
+
+.panel-body {
+    background: #CE0005;
+}
+#accordion a ,a:hover, .panel-heading{
+    text-decoration: none;
+    background-color:  rgba(206,0,5,1);
 }
