@@ -4,7 +4,7 @@
 This respository is where all sites that were created for this project. I am providing the links to all webpages below with a description.
 
 ### Day 1: Porfolio
-#### https://j14chambers.github.io/Porfolio/index.html
+#### https://j14chambers.github.io/Portfolio/index.html
 
 This is a showcase of some of the webpages that I have created so far.
 
