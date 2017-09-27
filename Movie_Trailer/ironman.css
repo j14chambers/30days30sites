@@ -18,6 +18,9 @@
 	padding-top: 90px;
 	padding-bottom: 90px;
 }
+#banner-img img{
+    height: 400px; 
+}
 #index .bottom-img{
 	background-image:url('http://www.ie-wallpapers.com/data/out/131/35837208-iron-man-image.jpg');
 	background-repeat:no-repeat;
