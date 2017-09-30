@@ -10,35 +10,77 @@ This is a showcase of some of the webpages that I have created so far.
 
 
 ### Day 2: Event Inivation
-#### https://j14chambers.github.io/30days30sites/Invitation/iniviation1.html
 
 The event inivation shows a wedding invitation.
 
 ### Day 3: Tourist Attraction
-#### https://j14chambers.github.io/30days30sites/Tourist Attraction/toursit.html
 
 This webpage features the Yellowstone National Park. All information and images are taken from the offical site.
 
 ### Day 4: Restaurant Menu
-#### https://j14chambers.github.io/30days30sites/Restaurant Menu/restaurant.html
 
 For this webpage I used a restaurant in Huntsville, Al called Drakes. I put a few of their menu items together into this webpage.
 
 ### Day 5: Product Site
-#### https://j14chambers.github.io/30days30sites/Product Site/product.html
 
 I used the HP Spectre for the product. I kept the same color scheme for the webpage. Most of the content of this page comes from hp.
 
 ### Day 6: Book/Author
-#### https://j14chambers.github.io/30days30sites/Author_Book/book.html
 
 The book used for this is Branded by Keary Taylor. There is a book summary, reivews, where to buy, and a short paragraph about the author.
 
 ### Day 7: Movie/Trailer
-#### https://j14chambers.github.io/30days30sites/Movie_Trailer/ironman.html
 
 The movie is Iron Man, using all 3 movies in this site.
 
-### Day 8: 
-#### https://j14chambers.github.io/30days30sites/
+### Day 8: Celebrity Fan Page
 
+### Day 9: Children's Toy/Game
+
+### Day 10: Photographer
+
+### Day 11: 
+
+### Day 12: Club
+
+### Day 13: Beverage
+
+### Day 14: Printing Company
+
+### Day 15: Motivational Speaker
+
+### Day 16: Charitable Organization
+
+### Day 17:
+
+### Day 18: Cuise Ship
+
+### Day 19: Candy
+
+### Day 20: Blog Lnading Page
+
+### Day 21: Email Newsletter
+
+### Day 22: Weight Loss Product/Program
+
+### Day 23: Gardener/Landscaper
+
+### Day 24: Online Shop
+
+### Day 25: Recipe Site
+
+### Day 26: Game's Offical Site
+
+### Day 27: TV Show
+
+### Day 28:
+
+### Day 29: Online Resume
+
+### Day 30: 404 Page
+
+
+
+
+
+&copy; 2017 All right reserved. The images and content used on this site belong to their rightful owners. This site was created by Jessica Chambers as part of the 30 Days 30 Sites.
