@@ -10,17 +10,15 @@ header{
     margin: 0;
     padding: 10px;
 }
-#index header h3{
-    color: gold;
-}
 #index h1{
     font-size: 70px;
 }
 #index h2{
-    
+    font-size: 40px;
+    color: gold;
 }
 #index h3{
-    font-size: 35px;
+    font-size: 33px;
     color: white;
 }
 .border{
