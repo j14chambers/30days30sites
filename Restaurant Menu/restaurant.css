@@ -69,12 +69,9 @@ img{
     border-bottom: 1px solid green;
     padding-bottom: 0;
     margin-bottom: 0;
+    color: #fff;
 }
-.footer-2{
-    background-color: #fff;
-    width: 100%;
-    padding-left: 10px;
-}
+
 #index footer{
     width: 100%;
     padding-bottom: 0px;
