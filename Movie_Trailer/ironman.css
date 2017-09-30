@@ -107,7 +107,6 @@ img{
     height: 100%;
 }
 
-
 #index h1{
 	text-align: left;
 	font-size: 150px;
@@ -116,9 +115,10 @@ img{
 }
 #index h2{
 	font-family: 'Teko', sans-serif;
-	font-size: 60px;
+	font-size: 90px;
 	color: white;
 }
+
 #index h3{
 	font-family: 'Teko', sans-serif;
 	font-size: 50px;
@@ -180,7 +180,6 @@ img{
 .menu-btn-border{
 	padding: 5px 30px 5px 30px;
 	text-align: center;
-	
 }
 
 ul {
@@ -245,6 +244,12 @@ ul {
 }
 .row-h{
     height: 500px;
+}
+#index .row-h-2{
+    height: 515px;
+}
+#index .row-h-3{
+    height: 710px;
 }
 
 .panel-body {
