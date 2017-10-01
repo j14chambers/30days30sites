@@ -1,7 +1,7 @@
 body{
     background-color: #0F3759;
     margin: 2px;
-    width: 95%;  
+    width: 97%;  
 }
 
 header{
@@ -13,12 +13,12 @@ footer{
     clear: both;
     padding: 10px;
 }
-
-img{
+.img-home img{
     height: 450px;
-    width: 100%;
+    width: 90%;
     background-position: center;
 }
+
 .box{
     margin-left: 10px;
     margin-right: 10px;
@@ -32,7 +32,8 @@ img{
     padding: 15px;
     float: left;
     width: 100%;
-    align-content: center; 
+    align-content: center;
+    border-top: white solid 4px;
 }
 .box-names{
     padding: 15px;
@@ -43,13 +44,11 @@ h1{
     text-align: center;
     color: #0CAD92;
     font-size: 80px;
-    
 }
 h2{
     font-size: 40px;
     color: #436C8E;
     text-align: left;
-    
 }
 
 h4{
@@ -130,15 +129,47 @@ input.btn-r:hover {
     color: #436C8E;
     background: #0F3759;
 }
+img{
+    width: 100%;
+    margin: 5px;
+}
+
+.row{
+
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.col-25{
+    width: 25%;
+    float: left;
+}
+.col-25 img{
+    width: 100%;
+}
+.col-40{
+    width: 40%;
+    float: left;
+}
+.col-30{
+    width: 30%;
+    float: left;
+    margin-left: 10px;
+}
 .col-50{
     width: 50%;
     float: left;
-    
 }
-.row{
-   
+.col-50 img{
+    width: 100%;
+    margin-left: 25px;
 }
-
+.col-60{
+    width: 60%;
+    float: left;
+}
 .col-r-30{
     width: 40%;
     float: right;
