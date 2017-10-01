@@ -1,7 +1,10 @@
 # 30 Days 30 Sites
 
 30 Days 30 Sites is a challenge to create 30 sites in 30 days. Building a site every day for 30 days to master the frontend.
-This respository is where all sites that were created for this project. I am providing the links to all webpages below with a description.
+This respository is where all sites that were created for this project.
+
+Use this link to find all sites created:
+#### https://j14chambers.github.io/30days30sites
 
 ### Day 1: Porfolio
 #### https://j14chambers.github.io/Portfolio/index.html
