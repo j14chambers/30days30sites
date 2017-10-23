@@ -1,0 +1,97 @@
+body{
+    border: white 5px solid;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+h2{
+    color: slategray;
+    font-size: 50px;
+}
+h1{
+    font-size: 90px;
+}
+.models h2{
+    padding: 0px;
+    margin: 0;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+header h1{
+    position: absolute;
+    top: 190px;
+    left: 60px;
+    right: 60px;
+    width: 95%;
+} 
+header h2{
+    position: absolute;
+    top: 285px;
+    left: 80px;
+    right: 25px;
+    width: 90%;
+}
+.header-img{
+    padding: 5px 5px;
+    color: white;
+    background-color: black;
+    background-image: url(img/hermes-rivera-285858.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    height: 950px;
+}
+.header-box{
+    position: relative;
+}
+.nature{
+    background-color: white;
+}
+.models{
+    background-color: black;
+}
+#photos {
+  /* Prevent vertical gaps */
+  line-height: 0;
+   
+  -webkit-column-count: 5;
+  -webkit-column-gap:   10px;
+  -moz-column-count:    5;
+  -moz-column-gap:      10px;
+  column-count:         3;
+  column-gap:           5px;  
+}
+
+#photos img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+}
+
+.flex-2{
+    flex: 2;
+}
+#models { 
+  display: flex; 
+  flex-wrap: wrap;
+  font-size: 0;  
+}
+#models img {  
+  width: 33%;
+} 
+
+/* fallback for earlier versions of Firefox */
+
+@supports not (flex-wrap: wrap) {
+  div#masonry { display: block; }
+  div#masonry img {  
+  display: inline-block;
+  vertical-align: top;
+  }
+}
+
+ 
