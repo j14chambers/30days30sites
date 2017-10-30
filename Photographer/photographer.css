@@ -79,6 +79,7 @@ header h2{
   display: flex; 
   flex-wrap: wrap;
   font-size: 0;  
+    height: 50%;
 }
 #models img {  
   width: 33%;
