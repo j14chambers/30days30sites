@@ -14,31 +14,35 @@ This is a showcase of some of the webpages that I have created so far.
 
 ### Day 2: Event Inivation
 
-The event inivation shows a wedding invitation.
+The event inivation shows a wedding invitation. This site has multiple pages. This site includes a form on the RVSP page and a gallery on the gallery page. Bootstrap was used on this site.
 
 ### Day 3: Tourist Attraction
 
-This webpage features the Yellowstone National Park. All information and images are taken from the offical site.
+This webpage features the Yellowstone National Park. All information and images are taken from the offical site. Bootstrap was used in this for the social icons. This also makes this site good for smaller screens, but not really mobile responsive.
 
 ### Day 4: Restaurant Menu
 
-For this webpage I used a restaurant in Huntsville, Al called Drakes. I put a few of their menu items together into this webpage.
+For this webpage I used a restaurant in Huntsville, Al called Drakes. I put a few of their menu items together into this webpage. This site is the most mobile responsive site that I have made. This site was made with mobile responsive in mind.
 
 ### Day 5: Product Site
 
-I used the HP Spectre for the product. I kept the same color scheme for the webpage. Most of the content of this page comes from hp.
+I used the HP Spectre for the product. I kept the same color scheme for the webpage. All of the content of this page comes from hp. This site takes the information from HP and images from the web to bring a nice look for this product. I wanted to see if I can duplicate the HP Spectre page and make changes to it.
 
 ### Day 6: Book/Author
 
-The book used for this is Branded by Keary Taylor. There is a book summary, reivews, where to buy, and a short paragraph about the author.
+The book used for this is Branded by Keary Taylor. There is a book summary, reivews, where to buy, and a short paragraph about the author. This page shows a good choice of fonts, colors and layout.
 
 ### Day 7: Movie/Trailer
 
-The movie is Iron Man, using all 3 movies in this site.
+The movie is Iron Man, using all 3 movies in this site. All information on this site came from wikipedia and marvel.com. Images are from the web. I believe that the layout is nicely exectued on this site. The font and the colors work well together.
 
 ### Day 8: Celebrity Fan Page
 
+I am fan of Supernatural. So here is the fan page dedicated to Dean, Sam, and Castiel. This
+
 ### Day 9: Children's Toy/Game
+
+Mononpoly. Who doesn't love the game that ruin a lot of friendships. A basic page with background on th game.
 
 ### Day 10: Photographer
 
