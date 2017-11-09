@@ -12,14 +12,11 @@ h2{
 h1{
     font-size: 90px;
 }
-.models h2{
-    padding: 0px;
-    margin: 0;
-}
-
 footer{
     background-color: black;
     color: white;
+    padding: 20px 10px;
+    margin: 10px;
 }
 header h1{
     position: absolute;
@@ -51,9 +48,6 @@ header h2{
 .nature{
     background-color: white;
 }
-.models{
-    background-color: black;
-}
 #photos {
   /* Prevent vertical gaps */
   line-height: 0;
@@ -73,16 +67,22 @@ header h2{
 }
 
 .flex-2{
-    flex: 2;
+  flex: 2;
+  width: 98%;
 }
-#models { 
+.models-section{
+    background-color: black;
+}
+.models { 
   display: flex; 
-  flex-wrap: wrap;
   font-size: 0;  
-    height: 50%;
+  height: 50%;
+  margin: 10px;
+  padding-bottom: 10px;
 }
-#models img {  
+.models img {  
   width: 33%;
+  height: 99%;
 } 
 
 /* fallback for earlier versions of Firefox */
