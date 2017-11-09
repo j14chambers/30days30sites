@@ -7,23 +7,27 @@ h1{
 }
 h2{
    font-size: 40px; 
+   font-family: 'Oswald', sans-serif;
 }
 h3{
    font-size: 35px; 
     text-align: center;
     padding-bottom: 5px;
     margin-bottom: 0px;
+    font-family: 'Fjalla One', sans-serif;
 }
 h4{
     margin: 0;
     font-size: 25px; 
     text-align: center;
+    font-family: 'Fjalla One', sans-serif;
 }
 p{
     font-size: 20px;
     color: white;
     top: 600px;
-    line-height: 2;
+    line-height: 1.5;
+    font-family: 'Exo 2', sans-serif;
 }
 
 header{
