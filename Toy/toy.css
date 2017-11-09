@@ -19,6 +19,14 @@ h1{
     font-family: 'Amaranth', sans-serif;
     color: red;
 }
+.round-border{
+    background-color: red; 
+    color: white;
+    border-radius: 10px;
+    border: red 5px solid;
+    padding: 5px 2px;
+    margin: 10px 90px;
+}
 p{
     font-size: 20px;
     padding: 10px;
