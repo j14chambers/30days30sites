@@ -254,8 +254,13 @@ ul {
 
 .panel-body {
     background: #CE0005;
+    position: relative;
+    clear: both;
 }
 #accordion a ,a:hover, .panel-heading{
     text-decoration: none;
     background-color:  rgba(206,0,5,1);
+}
+#accordion a:hover{
+	color: white;
 }
