@@ -1,0 +1,135 @@
+.primary-color{
+	color: #2d4e78;
+}
+.secondary-color{
+	color: #eee648;
+}
+.trim-color{
+
+}
+body{
+	background-color: white;
+	color: #e0e0e0;
+}
+header{
+	color: #e0e0e0;
+}
+h1{
+	font-size: 80px;
+	color: #e0e0e0;
+}
+h2{
+	font-size: 40px;
+	color: #e0e0e0;
+}
+h3{
+	font-size: 25px;
+	color: #e0e0e0;
+	text-align: center;
+}
+p{
+	padding: 10px 20px;
+	font-size: : 20px;
+}
+section{
+	margin: 20px 0px;
+}
+a{
+	text-decoration: none;
+}
+.top-box{
+	background-color: #2d4e78;
+	display: flex;
+}
+.club-name{
+	flex: 3;
+	text-align: center;
+}
+.box{
+	background-color: #e0e0e0;
+	flex: 1;
+}
+.contact{
+	flex: 1;
+	text-align: center;
+}
+.contact img{
+	height: 90px;
+	width: 90px;
+}
+.header-box{
+	display: flex;
+	background-color: white;
+	height: 100%;
+}
+.header-box img{
+	width: 100%;
+	height: 100%;
+}
+.logo-box{
+	flex: 4;
+}
+.sign-up-box{
+	flex: 2;
+	background-color: #2d4e78;
+}
+.sign-up{
+	text-align: center;
+}
+.sign-up p{
+	font-size: 30px !important;
+}
+button{
+	padding: 20px 10px;
+	width: 80%;
+	border-radius: 20px;
+	border: 0px;
+	top: 50%;
+	background-color: #984447;
+	color: #e0e0e0;
+	font-size: 40px;
+}
+button:hover{
+	background-color: white;
+	color: #984447;
+}
+sign-up{
+	text-align: center;
+	text-decoration: none;
+}
+.info{
+	display: flex;
+	text-align: center;
+	justify-content: space-between;
+}
+.about{
+	flex: 1;
+	background-color: #2d4e78;
+}
+.members{
+	flex: 1;
+	background-color: #984447;
+}
+.events{
+	flex: 1;
+	background-color: #2d4e78;
+	text-align: center;
+
+}
+#p p{
+	font-size: 20px;
+}
+ul li{
+	list-style: none;
+	font-size: 20px;
+	line-height: 1.5;
+}
+footer a{
+	color: #2d4e78;
+	font-size: 20px;
+	padding: 10px 20px;
+}
+footer{
+	color: #2d4e78;
+	font-size: 20px;
+}
