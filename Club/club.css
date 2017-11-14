@@ -27,6 +27,13 @@ h3{
 	color: #e0e0e0;
 	text-align: center;
 }
+h4{
+	font-size: 22px;
+	color: #e0e0e0;
+	text-align: left;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
 p{
 	padding: 10px 20px;
 	font-size: : 20px;
@@ -132,4 +139,43 @@ footer a{
 footer{
 	color: #2d4e78;
 	font-size: 20px;
+
+}
+footer p{
+	text-align: left !important;
+	padding-top: 0;
+}
+footer section{
+	display: flex;
+	border-bottom: 5px solid #984447;
+	padding: 0 20px;
+	background-color: #2d4e78;
+	text-align: center;
+	color: #e0e0e0;
+}
+footer img:hover{
+	background-color: #e0e0e0;
+	border-radius: 50%;
+}
+.social-box{
+	flex: 3;
+	align-items: center;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+}
+.social-box a img{
+	display: inline-block;
+	margin-top: 25px;
+	width: 80px;
+	height: 80px;
+}
+.contact-info{
+	flex: 1;
+}
+.location{
+	flex: 2;
+}
+.bottom-footer{
+	clear: both;
 }
