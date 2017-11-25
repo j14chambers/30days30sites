@@ -2,28 +2,32 @@ body, header, section{
 	margin: 0;
 	padding: 0;
 	color: #ffe2d1;
-	background-color: #000505;
+	background-color: #225560;
 }
 header{
 	width: 100%;
 }
 h1{
-	font-size: 40px;
+	font-size: 60px;
 	text-align: center;
 }
 h2{
 	text-align: center;
+	font-size: 40px;
+}
+h3{
+	color: #000505;
 	font-size: 30px;
 }
 p{
-	font-size: 20px;
+	font-size: 22px;
 }
 .top-box{
 	display: flex;
 	align-items: flex-end;
 	height: 100px;
 	position: fixed;
-	background-color: red;
+	background-color: #db2b39;
 	width: 100%;
 }
 .top-logo{
@@ -47,8 +51,8 @@ button{
 	margin: 10px;
 	font-size: 30px;
 	border: 0 solid;
-	color: blue;
-	background-color: yellow;
+	color: #000505;
+	background-color: #fefffc;
 }
 .head-img{
 	background-image: url('faygo-img.jpg');
@@ -65,8 +69,10 @@ button{
 	flex-basis: 10%;
 }
 .history{
-	background-color: #ffe2d1;
+	background-color: #fefffc;
 	color: #225560;
+	padding: 10px 0;
+	align-content: flex-start;
 }
 .history-box-2, .history-box-3{
 	flex: 1;
@@ -93,27 +99,39 @@ button{
 .box-comment{
 	flex: 4;
 	text-align: center;
-	background-color: blue;
-	color: white;
+	background-color: #fefffc;
+	color: #db2b39;
 }
 .social-box{
 	flex: 1;
 	border: 1px solid red;
+	text-align: center;
+}
+.social-box img{
+	width: 50px;
+	height: 50px;
+	padding: 5px 10px;
 }
 
 form{
-	background-color: blue;
+	background-color: #fefffc;
 	font-size: 22px;
 }
 input{
 	padding: 10px 60px;
 	margin: 10px;
 }
+.submit{
+	background-color: #db2b39;
+	border: none;
+	color: white;
+	font-size: 18px;
+}
 .text-box{
 	padding: 100px;
 	margin-bottom: 10px;
 }
 footer{
-	background-color: #ffe2d1;
+	background-color: #fefffc;
 	color: black;
 }
