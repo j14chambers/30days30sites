@@ -3,6 +3,7 @@ body, header, section{
 	padding: 0;
 	color: #ffe2d1;
 	background-color: #225560;
+	font-family: 'Orbitron', sans-serif;
 }
 header{
 	width: 100%;
@@ -21,6 +22,7 @@ h3{
 }
 p{
 	font-size: 22px;
+	font-family: 'Economica', sans-serif;
 }
 .top-box{
 	display: flex;
@@ -53,6 +55,7 @@ button{
 	border: 0 solid;
 	color: #000505;
 	background-color: #fefffc;
+	font-family: 'Orbitron', sans-serif;
 }
 .head-img{
 	background-image: url('faygo-img.jpg');
@@ -74,20 +77,24 @@ button{
 	padding: 10px 0;
 	align-content: flex-start;
 }
-.history-box-2, .history-box-3{
+.history-box-2, .history-box-1{
 	flex: 1;
-	padding: 10px 10px;
+	
 }
 .history img{
 	width: 100%;
 	height: 300px;
 }
-.history-box-1{
-	flex: 2;
+.history-box-3{
+	flex: 1;
+	padding: 15px;
 }
 .box, .box-space{
 	flex: 1;
 	text-align: center;
+}
+.shop div{
+	padding: 0 10px 0 15px;
 }
 .shop img{
 	width: 100%;
@@ -95,6 +102,9 @@ button{
 }
 .shop a{
 	text-decoration: none;
+}
+.comment{
+	background-color: #fefffc;
 }
 .box-comment{
 	flex: 4;
@@ -104,7 +114,6 @@ button{
 }
 .social-box{
 	flex: 1;
-	border: 1px solid red;
 	text-align: center;
 }
 .social-box img{
@@ -131,7 +140,18 @@ input{
 	padding: 100px;
 	margin-bottom: 10px;
 }
+footer section{
+	background-color: #db2b39;
+}
 footer{
-	background-color: #fefffc;
-	color: black;
+	background-color: #225560;
+}
+
+footer p{
+	font-size: 18px;
+	padding: 10px;
+}
+footer a{
+	text-decoration: none;
+	color: #fefffc;
 }
