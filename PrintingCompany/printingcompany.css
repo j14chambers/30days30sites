@@ -1,0 +1,72 @@
+body, header, html{
+	margin: 0;
+	padding: 0;
+}
+.banner{
+	padding-bottom: 10px;
+	border: 10px solid pink;
+}
+.banner-1{
+	display: flex;
+}
+.banner div{
+	max-height: 100px; 
+}
+.banner-logo, .banner-shopping-cart, .banner-account, .banner-contact{
+	flex: 1;
+	border: 5px solid blue;
+	text-align: center;
+}
+.banner-shopping-cart{
+
+}
+.banner-logo{
+	text-align: left;
+	flex: 1;
+}
+.banner-contact{
+	flex: 2;
+}
+.banner img{
+	max-height: 100px;
+}
+a{
+	text-decoration: none;
+	color: blue;
+	font-size: 20px;
+}
+ul {
+	 list-style: none;
+	 display: inline-block;
+	 padding: -10px 30px;
+	 margin: 10px;
+}
+ul li {
+	  display: block;
+	  position: relative;
+	  float: right;
+}
+li ul {
+	  display: none;
+}
+.banner-2{
+	background-color: black;
+	color: white;
+	font-size: 15px;
+}
+.menu{
+	padding: 25px 15px;
+	background-color: grey;
+	margin: 5px 10px;
+}
+.banner-3{
+	text-align: center;
+	color: white;
+	background-color: lightgrey;
+}
+.banner-3 h3{
+	font-size: 40px;
+}
+.banner-3 h4{
+	font-size: 20px;
+}
