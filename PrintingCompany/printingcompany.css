@@ -1,18 +1,44 @@
-body, header, html{
-	margin: 0;
+body, html{
+	margin: 10px;
 	padding: 0;
+	font-family: 'PT Sans', sans-serif;
 }
-
+h4{
+	font-family: 'Oswald', sans-serif;
+	font-size: 22px;
+}
+h3{
+	text-align: justify-all;
+	font-size: 25px;
+	font-family: 'Oswald', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+h2{
+	font-size: 35px;
+	font-family: 'Oswald', sans-serif;
+}
+h1{
+	font-size: 50px;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	padding: 10px;
+	color: #e9b872;
+	margin: 0;
+}
 .banner{
 	padding-bottom: 10px;
 }
 .banner div{
 	max-height: 100px; 
 }
+a{
+	text-decoration: none;
+}
 .banner a{
 	text-decoration: none;
 	color: #151515;
-	font-size: 20px;
+	font-size: 22px;
 }
 .banner ul {
 	 list-style: none;
@@ -55,7 +81,7 @@ body, header, html{
 .box{
 	padding: 5px 10px;
 	margin: 0px;
-	flex: 2;
+	flex: 1;
 }
 #content img{
 	flex: 1;
@@ -91,13 +117,29 @@ body, header, html{
     width: 80%;
     vertical-align: top;
 }
+#content h3{
+	padding: 0;
+}
+#content a{
+	padding: 0;
+}
+#content ul{
+	list-style: none;
+	text-align: justify-all;
+	padding: 0 inherit;
+	margin: 0 inherit;
+}
+#content li{
+	font-size: 18px;
+}
+
 form{
 	color: white;
 	text-align: left;
-	margin-left: 20px;
+	margin-left: 10px;
 }
 input {
-	padding: 5px 20px;
+	padding: 5px 25px;
 	text-align: left;
 	margin: 2px 20px 2px 0;
 }
@@ -105,10 +147,12 @@ input {
 	text-align: center;
 	margin-top: 10px;
 	color: white;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 18px;
 }
 .account a{
 	text-decoration: none;
-	color: black;
+	color: white;
 }
 .login{
 	background-color: red;
@@ -117,6 +161,7 @@ input {
 	margin: 20px 30px;
 	cursor: pointer;
 	border: none;
+	font-size: 20px;
 }
 .sign-up{
 	background-color: red;
@@ -125,8 +170,14 @@ input {
 	margin: 20px 30px;
 	cursor: pointer;
 	border: none;
+	font-size: 20px;
+}
+.button{
+	padding: 10px 50px;
 }
 footer{
-	background-color: #a63d40;
+	background-color: #090c9b;
 	padding: 20px;
+	color: white;
+	font-size: 18px;
 }
