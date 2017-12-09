@@ -2,71 +2,131 @@ body, header, html{
 	margin: 0;
 	padding: 0;
 }
+
 .banner{
 	padding-bottom: 10px;
-	border: 10px solid pink;
-}
-.banner-1{
-	display: flex;
 }
 .banner div{
 	max-height: 100px; 
 }
-.banner-logo, .banner-shopping-cart, .banner-account, .banner-contact{
-	flex: 1;
-	border: 5px solid blue;
-	text-align: center;
-}
-.banner-shopping-cart{
-
-}
-.banner-logo{
-	text-align: left;
-	flex: 1;
-}
-.banner-contact{
-	flex: 2;
-}
-.banner img{
-	max-height: 100px;
-}
-a{
+.banner a{
 	text-decoration: none;
-	color: blue;
+	color: #151515;
 	font-size: 20px;
 }
-ul {
+.banner ul {
 	 list-style: none;
 	 display: inline-block;
 	 padding: -10px 30px;
 	 margin: 10px;
 }
-ul li {
+.banner ul li {
 	  display: block;
 	  position: relative;
 	  float: right;
 }
-li ul {
+.banner li ul {
 	  display: none;
 }
-.banner-2{
-	background-color: black;
+.banner-1{
+	background-color: #090c9b;
 	color: white;
 	font-size: 15px;
 }
 .menu{
-	padding: 25px 15px;
-	background-color: grey;
+	padding: 10px 15px;
+	background-color: #e9b872;
 	margin: 5px 10px;
 }
-.banner-3{
+.banner-2{
 	text-align: center;
 	color: white;
-	background-color: lightgrey;
+	background-color: red;
+	padding: 0;
 }
-.banner-3 h3{
+.banner-2 h3{
 	font-size: 40px;
+	padding: 0;
 }
-.banner-3 h4{
+.banner-2 h4{
 	font-size: 20px;
+	padding: 0;
+}
+.box{
+	padding: 5px 10px;
+	margin: 0px;
+	flex: 2;
+}
+#content img{
+	flex: 1;
+}
+.flex-box{
+	flex: 1;
+	margin-top: 10px;
+}
+.flex-box img{
+	width: 90%;
+}
+#content p{
+	padding: 10px;
+}
+.flex-container{
+	display: flex;
+}
+#outer-container {
+    display: table;
+    width: 100%;
+}
+#sidebar {
+    display: table-cell;
+    width: 20%;
+    vertical-align: top;
+    background-color: #090c9b;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+#content {
+    display: table-cell;
+    width: 80%;
+    vertical-align: top;
+}
+form{
+	color: white;
+	text-align: left;
+	margin-left: 20px;
+}
+input {
+	padding: 5px 20px;
+	text-align: left;
+	margin: 2px 20px 2px 0;
+}
+.account{
+	text-align: center;
+	margin-top: 10px;
+	color: white;
+}
+.account a{
+	text-decoration: none;
+	color: black;
+}
+.login{
+	background-color: red;
+	color: white;
+	padding: 10px 30px;
+	margin: 20px 30px;
+	cursor: pointer;
+	border: none;
+}
+.sign-up{
+	background-color: red;
+	color: white;
+	padding: 10px 30px;
+	margin: 20px 30px;
+	cursor: pointer;
+	border: none;
+}
+footer{
+	background-color: #a63d40;
+	padding: 20px;
 }
