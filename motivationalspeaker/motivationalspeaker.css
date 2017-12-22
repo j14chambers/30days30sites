@@ -1,0 +1,140 @@
+html,body{
+	padding: 0;
+	margin: 0;
+	color: black;
+}
+/*header*/
+h1{
+	text-align: center;
+	font-size: 40px;
+	padding: 0
+	margin: 0;
+}
+header{
+	max-height: 450px;
+}
+.container{
+	display: flex;
+}
+.header-box{
+	flex: 2;
+}
+.menu{
+	flex: 1;
+}
+div{
+	border: 2px black solid;
+	padding: 0;
+	margin: 0;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.menu li{
+	border: 1px grey solid;
+	background-color: gold;
+	margin: 10px 0;
+	text-align: center;
+}
+.header-box img{
+	width: 100%;
+	height: 200px;
+}
+
+/*body*/
+.table-container{
+	display: table;
+	width: 100%;
+}
+.table{
+	display: table-cell;
+}
+.container-content{
+	justify-content: space-between;
+}
+.content{
+	width: 80%;
+	background-color: grey;
+}
+.box{
+	flex: 1;
+	background-color: gold;
+	margin: 10px 20px;
+	padding: 30px;
+	display: inherit;
+}
+.box-2{
+	flex: 1;
+	background-color: white;
+}
+/*Sign up form*/
+.signup{
+	width: 20%;
+	background-color: black
+	color: white;
+	text-align: center;
+}
+form{
+
+}
+
+/*footer*/
+#footer-1{
+	background-color: gold;
+	max-height: 100px;
+}
+.box-3{
+	flex: 1;
+}
+.socialmedia h3{
+	margin-right: 25px;
+	padding: 0 10px;
+	font-size: 20px;
+}
+.socialmedia{
+	flex: 2;
+	text-align: center;
+	display: inherit;
+}
+.socialmedia img{
+	width: 40px;
+	height: 40px;
+	padding: 10px;
+	border-radius: 30px;
+	background-color: black;
+	margin: 5px;
+}
+.socialmedia a{
+	color: white;
+	text-decoration: none;
+}
+
+/*footer unsplash*/
+
+.unsplash a{
+	background-color:black;
+	color:white;
+	text-decoration:none;
+	padding:4px 6px;
+	font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	line-height:1.2;
+	display:inline-block;
+	border-radius:3px;
+}
+.unsplash span{
+	display:inline-block;
+	padding:2px 3px;
+}
+.unsplash svg{
+	height:12px;
+	width:auto;
+	position:relative;
+	vertical-align:middle;
+	top:-1px;
+	fill:white;
+}
