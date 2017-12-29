@@ -1,7 +1,9 @@
 html,body{
 	padding: 0;
 	margin: 0;
-	color: black;
+	color: white;
+	background-color: #000000;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 /*header*/
 h1{
@@ -9,21 +11,33 @@ h1{
 	font-size: 40px;
 	padding: 0
 	margin: 0;
+	color: black;
+	font-family: 'Sarina', cursive;
 }
 header{
-	max-height: 450px;
+	max-height: 350px;
+}
+.title{
+	background-color: #fffffc;
 }
 .container{
 	display: flex;
 }
+
 .header-box{
+	flex: 1;
+}
+.header-box img{
+	height: 100%;
+}
+.quote-box{
 	flex: 2;
 }
 .menu{
 	flex: 1;
+	background-color: #696969;
 }
 div{
-	border: 2px black solid;
 	padding: 0;
 	margin: 0;
 }
@@ -34,10 +48,12 @@ ul{
 	margin: 0;
 }
 .menu li{
-	border: 1px grey solid;
-	background-color: gold;
+	background-color: #a89223;
 	margin: 10px 0;
 	text-align: center;
+	font-family: 'Passion One', cursive;
+	padding: 10px 0;
+	font-size: 20px;
 }
 .header-box img{
 	width: 100%;
@@ -48,56 +64,138 @@ ul{
 .table-container{
 	display: table;
 	width: 100%;
+	color: black;
 }
 .table{
 	display: table-cell;
 }
 .container-content{
 	justify-content: space-between;
+	background-color: #696969;
 }
 .content{
 	width: 80%;
-	background-color: grey;
 }
 .box{
 	flex: 1;
-	background-color: gold;
-	margin: 10px 20px;
-	padding: 30px;
+	background-color: #fffffc;
+	margin: 10px 2px;
+	padding: 15px;
 	display: inherit;
 }
 .box-2{
 	flex: 1;
 	background-color: white;
+	padding: 15px;
 }
+.box-2 img{
+	width: 200px;
+	margin: 5px 5px;
+	text-align: center;
+	flex: 1;
+}
+.quote{
+	text-align: center;
+	bottom: 0;
+	color: #a89223;
+	position: relative;
+	font-size: 40px;
+	padding: 0;
+	font-family: 'Sarina', cursive;
+}
+#slider {
+    width: 720px;
+    overflow: hidden;
+}
+
+#slider .slides {
+    display: block;
+    width: 6000px;
+  
+    margin: 0;
+    padding: 0;
+}
+
+#slider .slide {
+    float: left;
+    list-style-type: none;
+    width: 720px;
+    font-size: 50px;
+    font-family: 'Lobster Two', cursive;
+    text-align: center;
+
+}
+
 /*Sign up form*/
 .signup{
 	width: 20%;
-	background-color: black
+	background-color: black;
 	color: white;
 	text-align: center;
+	font-family: 'Passion One', cursive;
 }
 form{
-
+	background-color: #0000;
+	font-family: 'Passion One', cursive;
+}
+.signup h2{
+	font-family: 'Passion One', cursive;
+	font-size: 30px;
+}
+input{
+	background-color: #a89223;
+	padding: 6px 20;
+	margin: 10px;
+	font-size: 20px;
+}
+.signup p{
+	font-size: 20px;
+	padding: 0;
+	margin: 0;
+}
+br{
+	padding: 0;
+	margin: 0;
+}
+.button{
+	padding: 10px 25px;
+	color: #000;
+	text-align: center;
+	font-size: 20px;
+	background-color: #fffffc;
+	margin-top: 5px;
+	text-decoration: none;
+	border-radius: 2px;
 }
 
 /*footer*/
+footer{
+
+}
+footer p{
+	padding: 10px 5px;
+	margin: 5px;
+}
 #footer-1{
-	background-color: gold;
+	background-color: #a89223;
 	max-height: 100px;
 }
 .box-3{
 	flex: 1;
 }
+.black{
+	background-color: black;
+}
 .socialmedia h3{
 	margin-right: 25px;
 	padding: 0 10px;
-	font-size: 20px;
+	font-size: 30px;
 }
 .socialmedia{
 	flex: 2;
 	text-align: center;
 	display: inherit;
+	font-family: 'Passion One', cursive;
 }
 .socialmedia img{
 	width: 40px;
@@ -110,31 +208,4 @@ form{
 .socialmedia a{
 	color: white;
 	text-decoration: none;
-}
-
-/*footer unsplash*/
-
-.unsplash a{
-	background-color:black;
-	color:white;
-	text-decoration:none;
-	padding:4px 6px;
-	font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;
-	font-size:12px;
-	font-weight:bold;
-	line-height:1.2;
-	display:inline-block;
-	border-radius:3px;
-}
-.unsplash span{
-	display:inline-block;
-	padding:2px 3px;
-}
-.unsplash svg{
-	height:12px;
-	width:auto;
-	position:relative;
-	vertical-align:middle;
-	top:-1px;
-	fill:white;
 }

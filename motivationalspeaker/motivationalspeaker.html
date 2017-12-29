@@ -3,31 +3,32 @@
 <head>
 	<title>Motivational Speaker</title>
 	<link rel="stylesheet" type="text/css" href="motivationalspeaker.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster+Two|Passion+One|Sarina|Source+Sans+Pro" rel="stylesheet"> 
 </head>
 <body>
 	<header>
-		<div><h1>Motivational Speaker</h1></div>
+		<div class="title"><h1>Motivational Speaker</h1></div>
 		<div class="container">
 			<div class="menu">
 				<ul>
-					<li>Menu</li>
-					<li>Menu</li>
-					<li>Menu</li>
-					<li>Menu</li>
+					<li>HOME</li>
+					<li>ABOUT</li>
+					<li>MOTIVATION</li>
+					<li>CONTACT</li>
 				</ul>
 			</div>
-			<div class="header-box">
-				<img src="img/nkululeko.jpg">
-			</div>
-			<div class="header-box">
-				<ul>
-					<li>Slide 1</li>
-					<li>Slide 1</li>
-					<li>Slide 1</li>
-					<li>Slide 1</li>
+			<div class="quote-box" id="slider">
+				<ul class="slides">
+					<li class="slide slide1">Work hard in silence, let your success be your noise.</li>
+					<li class="slide slide2">Every day may not be good but there's good in every day</li>
+					<li class="slide slide3">Don't limit your challenges. Challenge your limits.</li>
+					<li class="slide slide4">Be fearless in the pursuit of what sets your soul on fire.</li>
+					<li class="slide slide1">Work hard in silence, let your success be your noise. -Frank Ocean</li>
 				</ul>
-				Motivational Quotes
+				<p class="quote">Motivational Quotes</p>
 			</div>
+			<div class="header-box"></div>
+			
 		</div>
 	</header>
 	<section class="table-container">
@@ -43,28 +44,34 @@
 					<p>This defines the ability for a flex item to grow if necessary. It accepts a unitless value that serves as a proportion. It dictates what amount of the available space inside the flex container the item should take up. </p>
 				</div>
 			</div>
-			<div class="container container-content">
+			<div class="container">
 				<div class="box-2 about">
 					<p>This defines the ability for a flex item to grow if necessary. It accepts a unitless value that serves as a proportion. It dictates what amount of the available space inside the flex container the item should take up. </p>
-					<img src="http://via.placeholder.com/350x150">
+					<div class="container">
+						<img src="http://via.placeholder.com/350x150">
+						<img src="http://via.placeholder.com/350x150">
+					</div>
 				</div>
 				<div class="box-2">
 					<p>This defines the ability for a flex item to grow if necessary. It accepts a unitless value that serves as a proportion. It dictates what amount of the available space inside the flex container the item should take up.</p>
-					<img src="http://via.placeholder.com/350x150">
+					<div class="container">
+						<img src="http://via.placeholder.com/350x150">
+						<img src="http://via.placeholder.com/350x150">
+					</div>
 				</div>
 			</div>
 		</div>
 		<div class="table signup">
 			<h2>Sign Up for Motivational Emails</h2>
 			<form>
-				Name
-				<br>
+				<p>Name</p>
+				<!-- <br> -->
 				<input type="text" name="name"><br>
-				Email Address
+				<p>Email Address</p>
+				<!-- <br> -->
+				<input type="text" name="email" style="margin-bottom: 30px;">
 				<br>
-				<input type="text" name="Password">
-				<br>
-				<input class="signup button" type="submit" value="Sign Up">
+				<a class="button" href=""> Sign Up</a>
 				<br>
 			</form>
 		</div>
@@ -85,21 +92,18 @@
 					<a href="https://facebook.com/"><img src="https://png.icons8.com/facebook-filled/ios7/50/ecf0f1"></a>
 					<a href="https://instagrma.com/"><img src="https://png.icons8.com/instagram-filled/ios7/50/ecf0f1"></a>
 				</div>
-				<div class="unsplash box-3">
-					<a href="https://unsplash.com/@lindikhaya?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Nkululeko Mabena">
-			<span>
-				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-				<title>unsplash-logo</title>
-				<path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg>
-			</span>
-			<span>Nkululeko Mabena</span>
-				</a>
+				<div class="box-3 black">
+					<p>Motivational Speaker
+						<br>Some text to put here and makes some sense of this.
+						<br> some more text here.
+					</p>
 				</div>
 		</section>
-		<p>&copy; 2017 All right reserved. The images and content used on this site belong to their rightful owners. This site was created by Jessica Chambers as part of the 30 Days 30 Sites.</p>
+			<p>&copy; 2017 All right reserved. The images and content used on this site belong to their rightful owners. This site was created by Jessica Chambers as part of the 30 Days 30 Sites.</p>
 	</footer>
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="imageslider.js"></script>
 </body>
 </html>
