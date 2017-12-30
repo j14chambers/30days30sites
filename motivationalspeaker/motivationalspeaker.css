@@ -5,34 +5,39 @@ html,body{
 	background-color: #000000;
 	font-family: 'Source Sans Pro', sans-serif;
 }
+body{
+	width: 100%;
+}
 /*header*/
 h1{
 	text-align: center;
-	font-size: 40px;
-	padding: 0
+	font-size: 29px;
+	padding: 0;
 	margin: 0;
 	color: black;
 	font-family: 'Sarina', cursive;
 }
-header{
-	max-height: 350px;
+h3{
+	text-align: center;
+	font-size: 25px;
+	padding: 0;
+	margin: 0;
+	color: black;
+	font-family: 'Sarina', cursive;
 }
+
 .title{
 	background-color: #fffffc;
 }
 .container{
 	display: flex;
+	flex-wrap: wrap;
 }
 
 .header-box{
 	flex: 1;
 }
-.header-box img{
-	height: 100%;
-}
-.quote-box{
-	flex: 2;
-}
+
 .menu{
 	flex: 1;
 	background-color: #696969;
@@ -55,33 +60,20 @@ ul{
 	padding: 10px 0;
 	font-size: 20px;
 }
-.header-box img{
-	width: 100%;
-	height: 200px;
-}
 
 /*body*/
 .table-container{
-	display: table;
-	width: 100%;
 	color: black;
-}
-.table{
-	display: table-cell;
 }
 .container-content{
 	justify-content: space-between;
 	background-color: #696969;
 }
-.content{
-	width: 80%;
-}
+
 .box{
-	flex: 1;
 	background-color: #fffffc;
 	margin: 10px 2px;
 	padding: 15px;
-	display: inherit;
 }
 .box-2{
 	flex: 1;
@@ -89,17 +81,14 @@ ul{
 	padding: 15px;
 }
 .box-2 img{
-	width: 200px;
 	margin: 5px 5px;
 	text-align: center;
-	flex: 1;
 }
 .quote{
 	text-align: center;
 	bottom: 0;
 	color: #a89223;
 	position: relative;
-	font-size: 40px;
 	padding: 0;
 	font-family: 'Sarina', cursive;
 }
@@ -111,7 +100,6 @@ ul{
 #slider .slides {
     display: block;
     width: 6000px;
-  
     margin: 0;
     padding: 0;
 }
@@ -120,19 +108,21 @@ ul{
     float: left;
     list-style-type: none;
     width: 720px;
-    font-size: 50px;
+    font-size: 30px;
     font-family: 'Lobster Two', cursive;
-    text-align: center;
-
+}
+.slides li{
+	padding: 2px;
+	margin: 1px;
 }
 
 /*Sign up form*/
 .signup{
-	width: 20%;
 	background-color: black;
 	color: white;
 	text-align: center;
 	font-family: 'Passion One', cursive;
+	margin-bottom: 20px;
 }
 form{
 	background-color: #0000;
@@ -193,6 +183,7 @@ footer p{
 }
 .socialmedia{
 	flex: 2;
+	background-color: #a89223;
 	text-align: center;
 	display: inherit;
 	font-family: 'Passion One', cursive;
@@ -208,4 +199,139 @@ footer p{
 .socialmedia a{
 	color: white;
 	text-decoration: none;
+}
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 1281px), (min-width: 1025px) and (max-width: 1280px),(min-width: 768px) and (max-width: 1024px) and (orientation: landscape)  {
+  
+  //CSS
+  header{
+	max-height: 350px;
+}
+  h1{
+  	font-size: 40px;
+  }
+  .quote-box{
+	flex: 2;
+}
+  .quote{
+  	font-size: 40px;
+  }
+  #slider .slide {
+  	font-size: 40px;
+  	text-align: center;
+  }
+  .box{
+  	flex: 1;
+  }
+  .table-container{
+	display: table;
+	width: 100%;
+}
+.table{
+	display: table-cell;
+}
+  .signup{
+	width: 20%;
+}
+.content{
+	width: 80%;
+}
+.box-2 img{
+	flex: 1;
+	width: 200px;
+}
+.footer-box{
+	max-height: 100px;
+}
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  //CSS
+  .header-box{
+  	display: none;
+  }
+  #slider .slide {
+  	font-size: 38px;
+  	text-align: center;
+  }
+  .quote-box{
+  	flex: 3;
+  }
+  
+}
+@media (min-width: 320px) and (max-width: 480px), (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  
+  //CSS
+  h1{
+  	font-size: 29px;
+  	padding: 5px 0;
+  }
+  .menu{
+  	flex-basis: 100%;
+  }
+  .quote{
+  	font-size: 29px;
+  }
+  .box, .box-2, .box-3, .socialmedia, .about img, .quote-box{
+  	flex-basis: 100%;
+  	flex-direction: column;
+  }
+  img{
+  	width: 350px;
+  	height: auto;
+  }
+ 
+  .container-content{
+  	flex-wrap: wrap;
+  }
+  .content{
+  	width: 100%;
+  	flex-direction: column;
+  }
+  .signup{
+  	width: 100%;
+  	margin-bottom: 20px;
+  }
+  .header-box{
+  	display: none;
+  }
+  .socialmedia, .box-3{
+  	flex: 1 0 auto;
+  }
+   footer .container{
+  	display: inherit;
+  	flex-direction: column;
+  }
+  footer .black p, .header-box{
+  	display: none;
+  }
+   #bottom-footer{
+  	clear: both;
+  	position: relative;
+  }
+  
 }
