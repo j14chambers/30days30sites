@@ -1,0 +1,55 @@
+#index{
+	padding: 0;
+	margin: 0;
+	background-color: #00738a;
+	color: white;
+}
+#index h1{
+	text-align: center;
+	font-size: 50px;
+}
+#index header {
+	text-align: center;
+}
+#index section{
+	margin: 10px;
+	background-color: #f7fff6;
+	color: black;
+}
+#index input{
+	border: 2px solid blue;
+}
+#index .volunteer{
+	text-align: center;
+	padding: 5px auto;
+	margin: auto;
+}
+.volunteer a{
+	color: white;
+	background-color: green;
+	padding: 10px;
+	font-size: 25px;
+}
+#index .volunteer h2{
+	margin-top: 10px;
+}
+#index .donte-btn{
+	background-color: blue;
+	margin: 20px auto 40px;
+}
+#index .volunteer{
+	margin: 40px auto;
+}
+#index .radio-btn{
+	font-size: 25px;
+	text-align: center;
+}
+#index .submit-form{
+	margin: auto;
+}
+#index .submit-form a{
+	text-align: center;
+	color: white;
+	background-color: blue;
+	font-size: 40px;
+}
