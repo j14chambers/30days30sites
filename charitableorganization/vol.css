@@ -1,44 +1,29 @@
-#index{
+#volunteer-pg{
 	padding: 0;
 	margin: 0;
 	background-color: #00738a;
 	color: white;
 }
-#index h1{
+#volunteer-pg h1{
 	text-align: center;
 	font-size: 50px;
 }
-#index header {
+#volunteer-pg header {
 	text-align: center;
-}
-/*NAV BAR*/
-#nav .navbar{
-	background-color: #b3cbb9;
-	font-size: 20px;
-	color: #b3cbb9;
-}
-#nav a{
-	color: #00738a;
-}
-#nav .active{
-	background-color: #f7fff6;
-}
-#nav .navbar-brand{
-	font-size: 30px;
 }
 img{
 	width: 100%;
 	height: 100%;
 }
-#index section{
+#volunteer-pg section{
 	margin: 10px;
 	background-color: #f7fff6;
 	color: black;
 }
-#index input{
+#volunteer-pg input{
 	border: 2px solid blue;
 }
-#index .volunteer{
+#volunteer-pg .volunteer{
 	text-align: center;
 	padding: 5px auto;
 	margin: auto;
@@ -49,7 +34,7 @@ img{
 	padding: 10px;
 	font-size: 25px;
 }
-#index .volunteer h2{
+#volunteer-pg .volunteer h2{
 	margin-top: 10px;
 }
 /*Volunteer PAGE*/
@@ -59,7 +44,7 @@ img{
 }
 
 /*Donate Form*/
-#index .donte-btn{
+#ivolunteer-pg .donte-btn{
 	background-color: blue;
 	margin: 20px auto 40px;
 }

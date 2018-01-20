@@ -1,0 +1,42 @@
+#volunteer-pg{
+	padding: 0;
+	margin: 0;
+	margin-top: 100px;
+	background-color: #00738a;
+	color: white;
+}
+#volunteer-pg h1{
+	text-align: center;
+	font-size: 50px;
+}
+#volunteer-pg header {
+	text-align: center;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+#volunteer-pg section{
+	margin: 40px;
+}
+#volunteer-pg .volunteer-btn{
+	background-color: #f7fff6;
+	margin: 20px auto 40px;
+	font-size: 30px;
+	color: #00738a;
+}
+/*NAV BAR*/
+#nav .navbar{
+	background-color: #b3cbb9;
+	font-size: 20px;
+	color: #b3cbb9;
+}
+#nav a{
+	color: #00738a;
+}
+#nav .active{
+	background-color: #f7fff6;
+}
+#nav .navbar-brand{
+	font-size: 30px;
+}
