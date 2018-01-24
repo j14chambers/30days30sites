@@ -3,6 +3,7 @@
 	margin: 0;
 	background-color: #00738a;
 	color: white;
+	width: 100%;
 }
 #index h1{
 	text-align: center;
@@ -36,7 +37,7 @@ img{
 	color: black;
 }
 #index input{
-	border: 2px solid blue;
+	border: 4px solid #b3cbb9;
 }
 #index .volunteer{
 	text-align: center;
@@ -44,25 +45,37 @@ img{
 	margin: auto;
 }
 .volunteer a{
-	color: white;
-	background-color: green;
+	color: #00738a;
+	background-color: #ffff82;
 	padding: 10px;
-	font-size: 25px;
+	font-size: 30px;
+	border-radius: 15px;
 }
 #index .volunteer h2{
 	margin-top: 10px;
 }
-/*Volunteer PAGE*/
-#volunteer-pg{
+#index .donte-btn{
 	background-color: #00738a;
+	margin: 20px auto 40px;
 	color: white;
 }
 
 /*Donate Form*/
-#index .donte-btn{
-	background-color: blue;
-	margin: 20px auto 40px;
+#index section{
+margin: 80px 40px;
 }
+.donate{
+	padding: 80px 30px 20px;
+	border-radius: 35px;
+	border: 5px solid white;
+}
+.donate-para{
+	background-color: #00738a;
+	margin-bottom: 10px;
+	top: 70px;
+	padding: 10px;
+}
+
 #index .volunteer{
 	margin: 40px auto;
 }
@@ -76,6 +89,13 @@ img{
 #index .submit-form a{
 	text-align: center;
 	color: white;
-	background-color: blue;
+	background-color: #00738a;
 	font-size: 40px;
+	border-radius: 15px;
+}
+.submit-form{
+	text-align: center;
+}
+.donte-btn{
+	text-align: center;
 }

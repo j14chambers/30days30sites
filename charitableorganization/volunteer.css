@@ -25,6 +25,25 @@ img{
 	font-size: 30px;
 	color: #00738a;
 }
+.volunteer-lists{
+	border-bottom: 5px solid white;
+	border-width: 100%;
+	padding: 20px;
+}
+.volunteer-lists ul{
+	margin: auto 80px;
+}
+li{
+	text-align: left;
+}
+
+form{
+	margin: auto;
+}
+.submit-form{
+	margin: auto;
+	text-align: center;
+}
 /*NAV BAR*/
 #nav .navbar{
 	background-color: #b3cbb9;
