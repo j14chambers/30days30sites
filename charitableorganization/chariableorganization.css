@@ -12,6 +12,9 @@
 #index header {
 	text-align: center;
 }
+#index .row{
+	margin: auto;
+}
 /*NAV BAR*/
 #nav .navbar{
 	background-color: #b3cbb9;
@@ -44,11 +47,18 @@ img{
 	padding: 5px auto;
 	margin: auto;
 }
+.volunteer h2{
+	/*! margin: 30px auto; */
+	font-size: 40px;
+}
+.volunteer div{
+	margin: auto;
+}
 .volunteer a{
 	color: #00738a;
 	background-color: #ffff82;
 	padding: 10px;
-	font-size: 30px;
+	font-size: 40px;
 	border-radius: 15px;
 }
 #index .volunteer h2{
@@ -56,7 +66,7 @@ img{
 }
 #index .donte-btn{
 	background-color: #00738a;
-	margin: 20px auto 40px;
+	margin: 0px auto 40px;
 	color: white;
 }
 
@@ -66,8 +76,8 @@ margin: 80px 40px;
 }
 .donate{
 	padding: 80px 30px 20px;
-	border-radius: 35px;
 	border: 5px solid white;
+	width: 90%;
 }
 .donate-para{
 	background-color: #00738a;
@@ -77,7 +87,7 @@ margin: 80px 40px;
 }
 
 #index .volunteer{
-	margin: 40px auto;
+	margin: 10px auto;
 }
 #index .radio-btn{
 	font-size: 25px;
@@ -98,4 +108,7 @@ margin: 80px 40px;
 }
 .donte-btn{
 	text-align: center;
+}
+footer{
+	margin: auto 25px;
 }
