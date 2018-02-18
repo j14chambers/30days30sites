@@ -62,3 +62,12 @@ form{
 footer{
 	margin: auto 25px;
 }
+@media (min-width: 320px) and (max-width: 480px){
+	.volunteer-lists ul{
+		margin: auto 20px;
+	}
+	h1{
+		margin: 5px;
+		padding-top: 20px;
+	}
+}

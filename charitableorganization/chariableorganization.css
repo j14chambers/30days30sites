@@ -13,7 +13,7 @@
 	text-align: center;
 }
 #index .row{
-	margin: auto;
+	margin: 180px auto auto;
 }
 /*NAV BAR*/
 #nav .navbar{
@@ -112,3 +112,31 @@ margin: 80px 40px;
 footer{
 	margin: auto 25px;
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+	#index .credit-card{
+		padding: 0;
+		margin: 0;
+	}
+	.credit-card input{
+		font-size: 14px !important;
+	}
+	.donate{
+		margin: 0;
+		padding: 0;
+		padding-top: 90px;
+	}
+	.billing-form{
+		margin-top: 30px;
+	}
+	#flex{
+		display: flex;
+		flex-direction: column;
+	}
+	.header-line{
+		order: 1;
+	}
+	.header-img{
+		order: 2;
+	}
+	}
