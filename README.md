@@ -46,11 +46,17 @@ Mononpoly. Who doesn't love the game that ruin a lot of friendships. A basic pag
 
 ### Day 10: Photographer
 
+Not my best work. But the layout needs help. I took the layout of the images from a Codepen that I will link later on.
+
 ### Day 11: 
 
 ### Day 12: Club
 
+A Club made up for this site. This page has a different layout. I also used stock images.
+
 ### Day 13: Beverage
+
+Faygo. The best drink brand that has drinks at a resaonable price. A Page with background on the company.
 
 ### Day 14: Printing Company
 
