@@ -1,0 +1,149 @@
+html{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+body{
+  font-family: 'Karma', serif;
+  font-size: 25px;
+  padding: 0;
+  margin: 0;
+}
+header .nav-bar{
+  background-color: #df0d00;
+  color: white;
+  padding: 5px 0px 0px 5px;
+  width: 99%;
+}
+.nav-bar{
+  height: 80px;
+}
+h1{
+  font-size: 70px;
+  font-family: 'Passion One', cursive;
+  width: 30%;
+  max-height: 300px;
+  text-align: center;
+  display: inline;
+}
+header ul{
+  list-style: none;
+  float: right;
+  text-align: right;
+  font-family: 'Alfa slab One', cursive;
+  display: inline;
+}
+header li{
+  display: inline;
+  margin: 0 15px;
+}
+header a{
+  text-decoration: none;
+  color: currentColor;
+}
+
+.containter{
+  display: flex;
+  height: 250px;
+  width: 100%;
+}
+.blue-box{
+  flex: 1;
+  background-color: #0a0e60;
+}
+.yellow-box{
+  flex: 3;
+  background-color: #ecc700;
+}
+
+/* Cruise Ships Locations */
+img{
+  height: 300px;
+  width: 100%;
+}
+.location-section{
+  display: flex;
+}
+.box{
+  flex: 1;
+  padding: 0;
+  margin: 0;
+}
+h3{
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Alfa Slab One', cursive;
+  margin-top: 0px;
+  margin-right: 5px;
+  padding: 10px;
+  background-color: #ecc700;
+  color: #0a0e60;
+}
+/* Information Section*/
+.information{
+  background-image: url('https://www.seabourn.com/images/miscellaneous/Seabourn_Encore_v2_170112.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  height: 300px;
+  width: 100%;
+  background-size: 100%;
+}
+/*Footer */
+footer{
+  background-color: #df0d00;
+  font-size: 20px;
+  color: white;
+  padding: 20px 0 20px 20px;
+}
+.footer-flex{
+  display: flex;
+}
+h5{
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+  margin-left: 30px;
+  color: #0a0e60;
+}
+h6{
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+}
+.contact{
+  flex: 1;
+}
+footer ul{
+  list-style: none;
+  margin: 0;
+}
+footer li{
+  margin: 0;
+  padding: 0 20px;
+  font-size: 18px;
+}
+hr{
+  width: 50%;
+  margin: 0 5px 10px 0;
+  border: solid white 2px;
+}
+.social-box{
+  text-align: center;
+  color: #ecc700;
+}
+.social-box img{
+  width: 25px;
+  height: 25px;
+  padding: 8px 8px;
+  border: solid 2px;
+  border-radius: 50%;
+  background-color: currentColor;
+}
+footer a{
+  text-decoration: none;
+  color: #07132e;
+}
+footer p{
+  font-size: 18px;
+}
