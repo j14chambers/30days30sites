@@ -1,0 +1,48 @@
+body{
+	background-color: rgba(255,255,255,0.8);
+	width: 98%;
+	height: 80%;
+	margin: 40px auto auto;
+}
+img{
+	margin: auto;
+	padding: 20px;
+	width: 90%;
+	height: auto;
+}
+h1{
+	margin: 20px 0 0 0;
+	color: green;
+	font-size: 80px;
+	text-align: right;
+}
+p{
+	color: black;
+	font-size: 25px;
+	margin-left: 90px;
+}
+.col-img{
+	background-image: url("https://i1.wp.com/acme-ug.org/wp-content/uploads/unbroken.jpg?fit=1024%2C768&ssl=1");
+	background-size: 100%;
+	opacity: 0.8;
+	background-position: center right;
+	background-repeat: no-repeat;
+	height: 390px;
+	width: 98%;
+	float: right;
+	margin: 149px 0 0 0;
+	z-index: 1;
+}
+
+.col-text{
+	padding-left: 20px;
+	margin: 25px;
+	width: 60%;
+	height: 300px;
+  position: absolute;
+	float: left;
+	left: -10px;
+	bottom: 1px;
+	background-color: rgba(255,255,255,0.8);
+}
+
