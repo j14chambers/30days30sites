@@ -1,14 +1,28 @@
-#index{
-    
+html{
+    padding: 0;
+    margin: 0;
+    background: #00302c;
 }
-.body{
+#index .body{
     background-color: #3a4d5e;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
-header{
+#index header{
     background-color: white;
-    color: 00302c;
+    color: #00302c;
     margin: 0;
     padding: 10px;
+    border: #3a4d5e solid 2px;
+    width: 100%;
+}
+a{
+    font-size: 20px;
+    color: #00302c;
+}
+p{
+    font-size: 18px;
 }
 #index h1{
     font-size: 70px;
@@ -24,6 +38,10 @@ header{
 .border{
     height: auto;
     margin-bottom: 20px;
+}
+.row{
+    margin: 0 !important;
+    width: 100%;
 }
 .equal {
   display: flex;
@@ -41,27 +59,41 @@ img{
     height: auto;
 }
 .box-1{
-    background-color: rgba(0,0,0,0.1);
+    background-color: #00302c;
     color: gold;
-    border: solid #3a4d5e 10px;
+    border: solid #3a4d5e 2px;
     margin: 0;
     display: block;
 }
-.box-2{
-    background-color: black;
-    color: white;
-    border: solid green 1px;
-    margin: 0;
-}
 .box-3{
     color: gold;
-    margin: -15px;
 }
 
-footer .box-3{
-    margin-top: 10px;
-    border: 0;
+footer{
     margin: 10px 0;
-    padding-top: 20px;
-    background-color: #3a4d5e;
+    padding-top: 40px;
+    background-color: #00302c;
+    border-top: gold 5px solid;
+}
+footer h4{
+    margin-bottom: 20px;
+}
+footer p{
+    margin: 20px 40px;
+    text-align: center;
+}
+
+.all-sites p{
+    font-size: 15px;
+    color: gold;
+}
+.all-sites h5{
+    font-size: 22px;
+    color: white;
+}
+.all-sites a{
+    background: #3a4d5e;
+}
+a :hover{
+    color: #00302c;
 }
