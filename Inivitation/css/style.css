@@ -1,0 +1,120 @@
+/* HTML and Body*/
+body {
+  background-color: #0F3759;
+  margin: 10px;
+  font-size: 18px; }
+
+header {
+  display: block;
+  clear: both; }
+
+footer {
+  color: #F1F2F4;
+  clear: both;
+  padding: 10px; }
+
+.img-home img {
+  height: 450px;
+  width: 90%;
+  background-position: center; }
+
+.box {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 15px;
+  float: left;
+  align-content: center; }
+
+.ft-box {
+  margin-left: 0px;
+  padding: 15px;
+  align-content: center;
+  border-top: white solid 4px; }
+
+.box-names {
+  padding: 15px;
+  margin: 10px; }
+
+h1 {
+  text-align: center;
+  color: #0CAD92;
+  font-size: 80px; }
+
+h2 {
+  font-size: 40px;
+  color: #436C8E;
+  text-align: left; }
+
+h4 {
+  text-align: center;
+  font-size: 40px;
+  color: #436C8E; }
+
+h3 {
+  font-size: 25px;
+  text-align: center;
+  color: #8294A7; }
+
+h5 {
+  font-size: 20px;
+  color: white; }
+
+/*NAVIGATION BAR*/
+#nav ul {
+  list-style-type: none;
+  margin: 10px;
+  margin-right: 20px;
+  overflow: hidden;
+  float: right;
+  padding: 5px 30px 5px 10px;
+  cursor: pointer;
+  background-color: #F1F2F4;
+  color: #0CAD92;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid #fff;
+  border-radius: 5px; }
+  #nav ul li {
+    float: left;
+    margin: 10px; }
+#nav a {
+  margin: 10px;
+  padding: 5px 10px 5px 10px;
+  cursor: pointer;
+  background-color: #F1F2F4;
+  color: #0CAD92;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid #fff;
+  border-radius: 5px; }
+#nav a:link, #nav a:visited {
+  display: block;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  padding: 4px;
+  text-transform: uppercase;
+  text-decoration: none; }
+#nav a:hover, #nav a:active {
+  color: #436C8E;
+  background: #0F3759; }
+
+/* GALLERY PAGE*/
+.gallery-img .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 50%; }
+  .gallery-img .wrapper img {
+    height: auto;
+    margin: 10px; }
+  .gallery-img .wrapper .flex-4 {
+    flex: 4; }
+  .gallery-img .wrapper .flex-1 {
+    flex: 1; }
+  .gallery-img .wrapper .flex-2 {
+    flex: 2; }
+
+#gallery footer {
+  padding-top: 30px; }
+
+/*# sourceMappingURL=style.css.map */
