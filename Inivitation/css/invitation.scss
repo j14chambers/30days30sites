@@ -15,11 +15,6 @@
         clear: both;
         padding: 10px;
     }
-    .img-home img{
-        height: 450px;
-        width: 90%;
-        background-position: center;
-    }
 
     .box{
         margin-left: 10px;
@@ -114,7 +109,42 @@
         background: #0F3759;
     }
 }
-
+/*Invitation Page - HOME*/
+#invitation{
+   section{
+       display: flex;
+       flex-wrap: nowrap;
+       flex-basis: 50%;
+       height: 700px;
+       
+        div{
+            flex: 1;
+            border: 3px #436C8E solid;
+            align-content: center;
+        }
+        .info{
+            justify-content: center;
+            align-content: center;
+            form{
+                text-align: center;
+            }
+            input{
+                background: #0F3759;
+                padding: 20px 40px;
+                border: #0CAD92 5px solid;
+                border-radius: 5px;
+                color: white;
+                font-size: 30px;
+            }
+        }
+        
+        img{
+            height: 650px !important;
+            width: 90%;
+            background-position: center;
+        }
+    }
+}
 /* GALLERY PAGE*/
 .gallery-img{
     .wrapper{
