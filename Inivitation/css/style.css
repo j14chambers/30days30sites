@@ -1,7 +1,7 @@
 /* HTML and Body*/
+
 body {
   background-color: #0F3759;
-  margin: 10px;
   font-size: 18px;
   font-family: 'Roboto Condensed', sans-serif;
  }
@@ -9,15 +9,12 @@ body {
 header {
   display: block;
   clear: both; 
+  height: 200px;
 }
 
-footer {
-  color: #F1F2F4;
-  clear: both;
-  padding: 10px; 
-}
 
 .box {
+  /* Not being used */
   margin-left: 10px;
   margin-right: 10px;
   padding: 15px;
@@ -25,16 +22,15 @@ footer {
   align-content: center; 
 }
 
-.ft-box {
-  margin-left: 0px;
-  padding: 15px;
-  align-content: center;
-  border-top: white solid 4px; 
+footer {
+  margin-top: 200px;
+  color: #0CAD92;
+  padding: 10px;
+  background-color: #f1f2f4;
 }
-
-.box-names {
+footer p{
+  margin: 10px 15%;
   padding: 15px;
-  margin: 10px; 
 }
 
 h1 {
@@ -116,30 +112,49 @@ h5 {
 }
 
 /*Invitation Page - HOME*/
+#invitation header{
+  position: relative;
+}
+
 #invitation h1{
   font-family: 'Lobster', cursive;
-  font-size: 100px;
+  font-size: 40px;
+  padding: 15px;
+  margin: 10px;
+  margin-left: 150px; 
+  position: absolute;
+
 }
+#invitation h3{
+  color: #0f3759;
+  padding: 0;
+  margin: 2;
+}
+
+
 #invitation section {
   display: flex;
-  flex-wrap: nowrap;
-  flex-basis: 50%;
-  height: 700px; 
+  width: 100%;
+  background-color: #fff;
+  margin: auto 0;
 }
-  #invitation section div {
-    flex: 1;
-    border: 3px #436C8E solid;
-    align-content: center; 
-  }
-  #invitation section .info {
+  #invitation .info {
     justify-content: center;
-    align-content: center; 
+    align-self: flex-end;
+    margin-bottom: 60px;
+    flex: 2;
   }
-    #invitation section .info form {
+  #invitation .img-home {
+    flex: 4;
+  }
+  .img-home img{
+    width: 100%;
+  }
+    #invitation .info form {
       text-align: center; 
     }
 
-    #invitation section .info input {
+    #invitation .info input {
       padding: 18px 25px;
     cursor: pointer;
     background-color: #0CAD92;
@@ -153,11 +168,7 @@ h5 {
       color: #436C8E;
       background: #0F3759;
   }
-  #invitation section img {
-    height: 650px !important;
-    width: 90%;
-    background-position: center; 
-  }
+
 
 /* GALLERY PAGE*/
 .gallery-img .wrapper {
