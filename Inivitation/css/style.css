@@ -13,17 +13,8 @@ header {
 }
 
 
-.box {
-  /* Not being used */
-  margin-left: 10px;
-  margin-right: 10px;
-  padding: 15px;
-  float: left;
-  align-content: center; 
-}
-
 footer {
-  margin-top: 200px;
+  margin-top: 20px;
   color: #0CAD92;
   padding: 10px;
   background-color: #f1f2f4;
@@ -130,71 +121,70 @@ h5 {
   padding: 0;
   margin: 2;
 }
-
-
 #invitation section {
   display: flex;
   width: 100%;
   background-color: #fff;
   margin: auto 0;
 }
-  #invitation .info {
-    justify-content: center;
-    align-self: flex-end;
-    margin-bottom: 20px;
-    flex: 2;
-  }
-  #invitation .img-home {
-    flex: 4;
-  }
-  .img-home img{
-    width: 100%;
-  }
-    #invitation .info form {
-      text-align: center; 
-    }
+#invitation .info {
+  justify-content: center;
+  align-self: flex-end;
+  margin-bottom: 20px;
+  flex: 2;
+}
+#invitation .img-home {
+  flex: 4;
+}
+.img-home img{
+  width: 100%;
+}
+#invitation .info form {
+  text-align: center; 
+}
 
-    #invitation .info input {
-      padding: 18px 25px;
-    cursor: pointer;
-    background-color: #0CAD92;
-    color: #F1F2F4;
-    font-size: 35px;
-    font-weight: bold;
-    border: 0;
-    border-radius: 10px;
-    width: 200px;
-    box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.4);
-    }
-   #invitation .info input:hover {
-      color: #436C8E;
-      background: #0F3759;
-  }
+#invitation .info input {
+  padding: 18px 25px;
+  cursor: pointer;
+  background-color: #0CAD92;
+  color: #F1F2F4;
+  font-size: 35px;
+  font-weight: bold;
+  border: 0;
+  border-radius: 10px;
+  width: 200px;
+  box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.4);
+}
+#invitation .info input:hover {
+  color: #436C8E;
+  background: #0F3759;
+}
 
 
 /* GALLERY PAGE*/
-.gallery-img .wrapper {
+#gallery h1{
+  text-align: center;
+  font-family: 'Lobster', cursive;
+}
+.wrapper {
   display: flex;
   flex-wrap: wrap;
   flex-basis: 50%; 
 }
-  .gallery-img .wrapper img {
+.wrapper img {
     height: auto;
     margin: 10px; 
   }
-  .gallery-img .wrapper .flex-4 {
+ .flex-4 {
     flex: 4; 
   }
-  .gallery-img .wrapper .flex-1 {
+.flex-1 {
     flex: 1; 
   }
-  .gallery-img .wrapper .flex-2 {
+.flex-2 {
     flex: 2; 
   }
 
-#gallery footer {
-  padding-top: 30px; 
-}
 
 /* RVSP PAGE*/
 #rvsp h2, #rvsp h1{
@@ -222,7 +212,6 @@ h5 {
 }
 
  .input-txt{
-  
   margin: 10px;
   background-color: #8294A7;
   color: #fff;
