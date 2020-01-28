@@ -161,9 +161,10 @@ h5 {
     color: #F1F2F4;
     font-size: 35px;
     font-weight: bold;
-    border: 1px solid #fff;
+    border: 0;
     border-radius: 10px;
     width: 200px;
+    box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.4);
     }
    #invitation .info input:hover {
       color: #436C8E;
@@ -195,3 +196,64 @@ h5 {
   padding-top: 30px; 
 }
 
+/* RVSP PAGE*/
+#rvsp h2, #rvsp h1{
+  text-align: center;
+  font-family: 'Lobster', cursive;
+}
+#rvsp img{
+  width: 100%;
+  height: 600px;
+}
+#rvsp h3{
+  margin: 5px;
+}
+.rvsp-form{
+  margin-top: 80px;
+}
+.rvsp-form, .rvsp{
+  padding: 10px;
+  font-family: 'Roboto Condensed', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+ justify-content: center;
+  
+}
+
+ .input-txt{
+  
+  margin: 10px;
+  background-color: #8294A7;
+  color: #fff;
+  font-size: 25px;
+  width: 160px;
+  height: 20px;
+  flex-grow: 1;
+  max-width: 220px;
+
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.4);
+  border: 0px;
+  padding: 20px;
+}
+.rvsp-button{
+  background-color: #0CAD92;
+  color: #F1F2F4;
+  width: 160px;
+  font-weight: bold;
+  font-size: 30px;
+  flex-grow: 2;
+  margin-top: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.4);
+  border: 0px;
+  padding: 20px;
+  max-width: 300px;
+  align-self: center;
+}
+.rvsp-button:hover {
+  color: #436C8E;
+  background: #0F3759;
+  box-shadow: 0px 8px 8px 3px rgba(0, 0, 0, 0.4);
+}
