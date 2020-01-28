@@ -141,7 +141,7 @@ h5 {
   #invitation .info {
     justify-content: center;
     align-self: flex-end;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
     flex: 2;
   }
   #invitation .img-home {
@@ -162,7 +162,8 @@ h5 {
     font-size: 35px;
     font-weight: bold;
     border: 1px solid #fff;
-    border-radius: 5px;
+    border-radius: 10px;
+    width: 200px;
     }
    #invitation .info input:hover {
       color: #436C8E;
