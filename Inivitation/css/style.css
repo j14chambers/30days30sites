@@ -19,6 +19,19 @@ footer {
   padding: 10px;
   background-color: #f1f2f4;
 }
+footer div{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+footer a{
+  background-color: #0F3759;
+  text-decoration: none;
+  color: #F1F2F4;
+  font-size: 20px;
+  margin: 25px 25%;
+  padding: 10px 15px;
+  text-align: center;
+}
 footer p{
   margin: 10px 15%;
   padding: 15px;
