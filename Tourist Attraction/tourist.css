@@ -1,32 +1,29 @@
 body{
-    background-color: #373875;
-    margin: 0px 20px;
+    background-color: #A56D05;
+    margin: 0px;
 }
-.body{
-    margin: 10px;
-    background-color: #373875;
-    color: white;
-}
-.col-60{
-    width: 60%;
-    float: left;
-}
+@media (min-width: 768px) {
+    .col-60{
+        width: 60%;
+        float: left;
+    }
 
-.col-100{
-    width: 100%;
-    float: left;
-}
+    .col-100{
+        width: 100%;
+        float: left;
+    }
 
-.col-30{
-    width: 30%;
-    float: left;
-}
+    .col-30{
+        width: 30%;
+        float: left;
+    }
 
-.col-50{
-    width: 45%;
-    float: left;
-}
+    .col-50{
+        width: 45%;
+        float: left;
+    }
 
+}
 .box{
     margin: 5px;
     padding: 3px;
@@ -62,10 +59,6 @@ body{
 
 a img{
     text-align: center;
-}
-
-.row {
-
 }
 
 footer{
@@ -107,6 +100,9 @@ h5{
     color: white;
     font-size: 20px;
     font-family: 'Fjalla One', sans-serif;
+}
+p{
+    padding: 10px;
 }
 a, p, ul, li{
     color: white;
