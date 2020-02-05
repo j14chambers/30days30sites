@@ -1,7 +1,19 @@
+/* #a46d06 -- brown orange 
+#afa060 -- tan 
+#fe5d26 -- orange 
+#f2c078 -- cream orange 
+#faedca -- white or cream */
+
 body{
-    background-color: #A56D05;
     margin: 0px;
 }
+header{
+    background-color: #A56D05;
+}
+section{
+    margin: 20px;
+}
+
 @media (min-width: 768px) {
     .col-60{
         width: 60%;
@@ -35,7 +47,7 @@ body{
     background-color: #A56D05;
     left: 0;
     bottom: 0;
-    overflow:hidden;
+    overflow: hidden;
 }
 
 /*things to do box*/
@@ -45,7 +57,7 @@ body{
     padding: 5px;
     left: 0;
     bottom: 0;
-    overflow:hidden;
+    overflow: hidden;
 }
 
 .img-head{
@@ -53,7 +65,7 @@ body{
     width:  100%;
 }
 
-.img{
+img{
     width: 100%;
 }
 
@@ -62,11 +74,9 @@ a img{
 }
 
 footer{
-    background-color: black;
-    color: white;
+    background-color: #afa060;
     padding: 5px;
     padding-left: 20px;
-    width: 100%;
     overflow: hidden;
     bottom: 0;
 }
@@ -79,19 +89,18 @@ h1{
 }
 
 h2{
-    color: white;
+    color: #f2c078;
     font-size: 50px;
     font-family: 'Fjalla One', sans-serif;  
 }
 
 h3{
-    color: white;
+    color: #afa060;
     font-size: 35px;
     font-family: 'Fjalla One', sans-serif;
 }
 
 h4{
-    color: white;
     font-size: 30px;
     font-family: 'Fjalla One', sans-serif;
 }
@@ -105,11 +114,12 @@ p{
     padding: 10px;
 }
 a, p, ul, li{
-    color: white;
+    color: #000;
     font-size: 20px;
     text-decoration: none;
     font-family: 'Libre Franklin', sans-serif;
 }
 footer p{
     font-size: 15px;
+    
 }
