@@ -19,6 +19,9 @@ section{
         width: 60%;
         float: left;
     }
+    .col-60 img{
+        height: 100%;
+    }
 
     .col-100{
         width: 100%;
@@ -49,6 +52,12 @@ section{
     bottom: 0;
     overflow: hidden;
 }
+.back-box h3{
+    color: black;
+}
+.back-box p{
+    color: white;
+}
 
 /*things to do box*/
 .ttd-box{
@@ -64,13 +73,37 @@ section{
     height: 300px;
     width:  100%;
 }
+.services{
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+}
 
 img{
     width: 100%;
+    height: 250px;
+}
+.offical-link a{
+    background-color: #A56D05;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+    font-size: 25px;
+    font-family: 'Fjalla One', sans-serif;
+}
+.offical-link{
+    text-align: center;
+    margin-bottom: 80px;
+
 }
 
 a img{
     text-align: center;
+}
+.social-media a{
+    font-size: 40px;
+    margin-right: 10px;
 }
 
 footer{
