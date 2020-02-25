@@ -7,6 +7,7 @@
     color: white;
     text-align: center;
     font-size: 50px;
+    font-weight: bold;
 }
 #index h3, #index p{
     color: #171A28;
@@ -15,6 +16,10 @@
 #index h4{
     color: #F08549;
 }
+#index .row{
+    margin: 0%;
+}
+
 address{
     color: #fff;
 }
@@ -30,19 +35,27 @@ address{
 }
 
 #index header img{
-    width: 90%;
+    width: 65%;
     height: 210px;
+    margin: 0 15%;
 }
 
-#index .box-1{
+.background-color-orange{
     background-color: #F08549;
     width: 100%;
     margin: 0;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
-#index .box-2{
-    background-color: #5D381E;
+.background-color-brown{
+    /* background-color: #9ba09f; */
+    background-color: #a0b9c6;
     width: 100%;
     margin: 0;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .box-3{
@@ -62,11 +75,13 @@ img{
 .height-bar-img{
     height: 280px;
 }
+footer{
+    color: #fff;
+}
 #index .footer-1{
     background-color: #171A28;
     width: 100%;
     margin: 0;
-    border-bottom: 1px solid green;
     padding-bottom: 0;
     margin-bottom: 0;
     color: #fff;
@@ -80,6 +95,19 @@ img{
 #index footer p{
     text-align: left;
     color: white;
+}
+.social-bx h4{
+    text-align: center;
+    margin-top: 15px;
+    background-color: #e25714;
+    padding: 15px;
+}
+.social-bx h4 a{
+    color: #fff;
+    text-decoration: none;
+}
+.social-bx h4:hover{
+    background-color: #a0b9c6;
 }
 
 /*FOOTER SOCIAL MEDIA BUTTONS*/
@@ -111,7 +139,7 @@ img{
     padding: 4px;
 }
 #index .git-ic {
-    background-color: #000;.
+    background-color: #000;
     color: white;
     padding: 4px;
 }
@@ -125,4 +153,5 @@ img{
     padding: 10px;
     margin-left: 10px;
     border-radius: 5px;
+    font-size: 15px;
 }
