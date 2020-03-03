@@ -33,11 +33,9 @@ address{
     color: black;
     border: 15px solid #171A28;
 }
-
 #index header img{
     width: 65%;
-    height: 210px;
-    margin: 0 15%;
+    margin: 0 25%;
 }
 
 .background-color-orange{
@@ -64,9 +62,11 @@ address{
     border: white soild;
     width: 100%;
 }
-.box-dotted{
+#index .box-dotted{
     color: white;
     border: white dotted;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 img{
@@ -114,6 +114,8 @@ footer{
 #index .social-bx{
     padding: 15px;
     margin: 5px;
+    display: inline-box;
+    text-align: center;
 }
 #index .fb-ic {
     background-color: #3d5b99;
@@ -153,5 +155,5 @@ footer{
     padding: 10px;
     margin-left: 10px;
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 25px;
 }
