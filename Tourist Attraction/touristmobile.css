@@ -1,0 +1,32 @@
+/* #a46d06 -- brown orange 
+#afa060 -- tan 
+#fe5d26 -- orange 
+#f2c078 -- cream orange 
+#faedca -- white or cream */
+
+
+@media (min-width: 100px) and (max-width: 767px) {
+    body{
+        font-size: 15px;
+    }
+    
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 45px;
+    }
+    
+    h3{
+        font-size: 35px;
+    }
+    
+    h4{
+        font-size: 30px;
+    }
+    
+    h5{
+        font-size: 20px;
+    }
+
+}

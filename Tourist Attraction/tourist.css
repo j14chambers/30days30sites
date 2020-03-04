@@ -1,32 +1,44 @@
+/* #a46d06 -- brown orange 
+#afa060 -- tan 
+#fe5d26 -- orange 
+#f2c078 -- cream orange 
+#faedca -- white or cream */
+
 body{
-    background-color: #373875;
-    margin: 0px 20px;
+    margin: 0px;
 }
-.body{
-    margin: 10px;
-    background-color: #373875;
-    color: white;
+header{
+    background-color: #A56D05;
 }
-.col-60{
-    width: 60%;
-    float: left;
+section{
+    margin: 20px;
 }
 
-.col-100{
-    width: 100%;
-    float: left;
-}
+@media (min-width: 768px) {
+    .col-60{
+        width: 60%;
+        float: left;
+    }
+    .col-60 img{
+        height: 100%;
+    }
 
-.col-30{
-    width: 30%;
-    float: left;
-}
+    .col-100{
+        width: 100%;
+        float: left;
+    }
 
-.col-50{
-    width: 45%;
-    float: left;
-}
+    .col-30{
+        width: 30%;
+        float: left;
+    }
 
+    .col-50{
+        width: 45%;
+        float: left;
+    }
+
+}
 .box{
     margin: 5px;
     padding: 3px;
@@ -38,7 +50,13 @@ body{
     background-color: #A56D05;
     left: 0;
     bottom: 0;
-    overflow:hidden;
+    overflow: hidden;
+}
+.back-box h3{
+    color: black;
+}
+.back-box p{
+    color: white;
 }
 
 /*things to do box*/
@@ -48,32 +66,50 @@ body{
     padding: 5px;
     left: 0;
     bottom: 0;
-    overflow:hidden;
+    overflow: hidden;
 }
 
 .img-head{
     height: 300px;
     width:  100%;
 }
+.services{
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+}
 
-.img{
+img{
     width: 100%;
+    height: 250px;
+}
+.offical-link a{
+    background-color: #A56D05;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+    font-size: 25px;
+    font-family: 'Fjalla One', sans-serif;
+}
+.offical-link{
+    text-align: center;
+    margin-bottom: 80px;
+
 }
 
 a img{
     text-align: center;
 }
-
-.row {
-
+.social-media a{
+    font-size: 40px;
+    margin-right: 10px;
 }
 
 footer{
-    background-color: black;
-    color: white;
+    background-color: #afa060;
     padding: 5px;
     padding-left: 20px;
-    width: 100%;
     overflow: hidden;
     bottom: 0;
 }
@@ -86,19 +122,18 @@ h1{
 }
 
 h2{
-    color: white;
+    color: #f2c078;
     font-size: 50px;
     font-family: 'Fjalla One', sans-serif;  
 }
 
 h3{
-    color: white;
+    color: #afa060;
     font-size: 35px;
     font-family: 'Fjalla One', sans-serif;
 }
 
 h4{
-    color: white;
     font-size: 30px;
     font-family: 'Fjalla One', sans-serif;
 }
@@ -108,12 +143,16 @@ h5{
     font-size: 20px;
     font-family: 'Fjalla One', sans-serif;
 }
+p{
+    padding: 10px;
+}
 a, p, ul, li{
-    color: white;
+    color: #000;
     font-size: 20px;
     text-decoration: none;
     font-family: 'Libre Franklin', sans-serif;
 }
 footer p{
     font-size: 15px;
+    
 }
