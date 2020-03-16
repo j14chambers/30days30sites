@@ -4,15 +4,7 @@
     margin: 20px;
 }
 
-body{
-	background-color: black;
-	color: white;
-	margin: 10px;
-}
- .head-img{
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position: center center;
+.header-img{
 	width: 100%;
 	height: 300px;
 }
@@ -20,18 +12,18 @@ body{
     border-bottom: solid #c78a10 7px;
     padding-bottom: 15px;
 }
-.head-box{
+.header-box{
 	padding: 30px;
 	width: 100%;
 	height: 300px;
 	background-color: black;
 }
-#index .head-box h1{
+#index .header-box h1{
     font-size: 41px;
     color: #c78a10;
     
 }
-#index .head-box p{
+#index .header-box p{
     font-size: 16px;
 }
 #index p{
@@ -61,51 +53,8 @@ body{
     padding: 20px;
     border-top: solid #c78a10 7px;
 }
+
 .features p{
     height: 130px;
 }
 
-/*FOOTER SOCIAL MEDIA BUTTONS*/
-#index .social-bx{
-    padding: 15px;
-    margin: 5px;
-}
-#index .fb-ic {
-    background-color: #3d5b99;
-    color: white;
-    padding: 4px;
-}
-
-#index .tw-ic {
-    background-color: #00aced;
-    color: white;
-    padding: 4px;
-}
-
-#index .li-ic {
-    background-color: #0073a4;
-    color: white;
-    padding: 4px;
-}
-
-#index .gplus-ic {
-    background-color: #e25714;
-    color: white;
-    padding: 4px;
-}
-#index .git-ic {
-    background-color: #fff;.
-    color: white;
-    padding: 4px;
-}
-#index .ins-ic {
-    background-color:  #e95950;
-    color: white;
-    padding: 4px;
-}
-
-#index .icons-sm{
-    padding: 10px;
-    margin-left: 10px;
-    border-radius: 5px;
-}
