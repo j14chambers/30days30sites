@@ -57,4 +57,15 @@
 .features p{
     height: 130px;
 }
+.btn{
+    margin-top: 100px;
+    color: white;
+    font-size: 40px;
+    background-color: #c78a10;
+
+}
+#index .btn:hover{
+    color: black;
+    background-color: #a6aab5;
+}
 
