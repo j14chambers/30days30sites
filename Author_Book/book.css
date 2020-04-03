@@ -46,6 +46,12 @@ img{
     padding: 40px;
     margin:0;
 }
+#about-paragraph{
+    background: #5CA5B7;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    color: white;
+    margin: 60px;
+}
 .review-bg{
     padding: 40px;
     margin:0;
