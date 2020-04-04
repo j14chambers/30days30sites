@@ -23,18 +23,20 @@ p{
     line-height: 1.5;
 }
 blockquote{
-    font-size: 16px;
-    border: solid white 3px;
-    padding: 15px;
-    background-color: #326573;
+    font-size: 15px;
+    padding: 20px 40px;
     font-family: 'Droid Serif', serif;
     line-height: 1.5;
+    color: white;
+    background: #326573;
+    margin: 0;
+    max-height: 150px;
 }
 img{
     height: 75px;
     width: auto;
 }
-    /* CLASSES */
+    /* CLASSES AND IDs*/
 .background-img{
     background-image: url(https://s-media-cache-ak0.pinimg.com/originals/b7/d8/34/b7d834ce447059eeefd031fe169fd6e4.jpg);
 
@@ -52,18 +54,53 @@ img{
     color: white;
     margin: 60px;
 }
-.review-bg{
-    padding: 40px;
-    margin:0;
-    background-color: #0B0C0A;
+#review-section h1{
+    color: #8B6654;
+}
+#review-section h2{
+    color: #0B0C0A;
+    margin-left: 44px;
+}
+.reviews{
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.review-card{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    max-width: 500px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    align-items: center;
+    
+}
+.profile{
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+    background: #F1F2F4;
+    width: 100%;
+    max-height: 100px;
+}
+blockquote{
+    margin: 0;
+}
+.profile img{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+figcaption{
+    margin-left: 20px;
 }
 .author-bg{
     padding: 40px;
     margin:0;
 }
-#blue h2{
-    color: #5F9EA8;
-}
+
 
 footer{
     padding: 20px;
