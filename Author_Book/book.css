@@ -1,97 +1,223 @@
 body{
     width: 100%;
     height: 100%;
-    background-color: #326573;
-    color: white;
     overflow-x: hidden;
     margin:0;
     padding:0;
     font-family: sans-serif;
 }
-
-.background-img{
-    background-image: url(https://s-media-cache-ak0.pinimg.com/originals/b7/d8/34/b7d834ce447059eeefd031fe169fd6e4.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center center;
-    height: 950px;
-}
-
-.content{
-    padding: 40px;
-    margin:0;
-}
-.review-bg{
-    padding: 40px;
-    margin:0;
-    background-color: #0B0C0A;
-}
-.author-bg{
-    padding: 40px;
-    margin:0;
-}
+/* TAGS */
 h1{
-    font-size: 35px;
+    font-size: 55px;
     color: #8B6654;
     font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
 }
 
 h2{
     color: black;
-    font-size: 20px;
+    font-size: 40px;
     font-family: sans-serif;
+    margin: 0;
 }
-h3{
-    font-size: 16px;
-}
-
-#blue h2{
-    color: #5F9EA8;
-}
-
 p{
     font-size: 20px;
+    line-height: 1.5;
 }
 blockquote{
-    font-size: 16px;
-    border: solid white 3px;
-    padding: 15px;
-    background-color: #326573;
+    font-size: 15px;
+    padding: 20px 40px;
     font-family: 'Droid Serif', serif;
+    line-height: 1.5;
+    color: white;
+    background: #326573;
+    margin: 0;
+    max-height: 150px;
 }
-
 img{
     height: 75px;
     width: auto;
 }
+    /* CLASSES AND IDs*/
+.background-img{
+    background-image: url(https://s-media-cache-ak0.pinimg.com/originals/b7/d8/34/b7d834ce447059eeefd031fe169fd6e4.jpg);
 
+    height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+section{
+    margin: 10px;
+    padding: 40px;
+}
+#about-paragraph, .author-bg{
+    background: #5CA5B7;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    color: white;
+    margin: 60px;
+}
+#review-section h1{
+    color: #8B6654;
+}
+#review-section h2{
+    color: #0B0C0A;
+    margin-left: 44px;
+}
+.reviews{
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.review-card{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    max-width: 500px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    align-items: center; 
+}
+.profile{
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+    background: #F1F2F4;
+    width: 100%;
+    max-height: 100px;
+}
+blockquote{
+    margin: 0;
+}
+.profile img{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+figcaption{
+    margin-left: 20px;
+}
+.buy-icons{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.buy-icons div{
+    margin:  10px 90px;
+    text-align: center;
+}
+.buy h2{
+    color: #326573;
+}
+.buy a{
+    color: #326573;
+    text-decoration: none;
+}
+.official-site a{
+    color: #0B0C0A;
+    background-color: white;
+    padding: 15px 40px;
+    margin: 10px 60px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 58px;
+}
+.official-site{
+    text-align: center;
+    margin: 80px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.official-site a:hover{
+    background: #5CA5B7;
+    color: white;
+}
 footer{
-    padding: 20px;
-    margin:0;
+    padding: 40px;
+    margin: 15px;
 }
 footer p{
-    font-size: 15px;
+    font-size: 18px;
 }
+footer a{
+    color: currentColor;
+    text-decoration: none;
+    font-size: 18px;
+}
+footer a:hover{
+    color: #8B6654
+}
+
 /* SOCIAL MEDIA BUTTONS*/
 
-#index .social-bx{
+.social-bx{
     padding: 15px;
     margin: 5px;
+    display: flex;
 }
 
-#index .fb-ic {
+.fb-ic {
     background-color: #3d5b99;
     color: white;
     padding: 4px;
 }
 
-#index .tw-ic {
+.tw-ic {
     background-color: #00aced;
     color: white;
     padding: 4px;
 }
-#index .icons-sm{
+.icons-sm{
     padding: 15px;
-    margin-left: 10px;
-    border-radius: 5px;
+    margin-left: 15px;
+    border-radius: 25%;
 }
+.icons-sm:hover{
+    background-color: white;
+}
+.tw-ic:hover{
+    color: #00aced;
+}
+.fb-ic:hover{
+    color: #3d5b99;
+}
+@media(max-width: 767px) {
+    section{
+        margin: 10px;
+        padding: 20px;
+    }
+    blockquote{
+        max-height: 250px;
+    }
+    #about-paragraph{
+        margin: 40px;
+    }
+    .official-site a{
+        font-size: 16px;
+        margin: 10px 20px;
+    }
+    .author-bg{
+        margin: 40px;
+    }
+    .author-bg h1{
+        line-height: 1;
+    }
+    .social-bx{
+        flex-direction: column;
+        
+    }
+    .social-bx a{
+       
+        text-align: center;
+        border-radius: 0;
+        margin: 10px;
+        justify-content: center;
+    }
+}
+  
