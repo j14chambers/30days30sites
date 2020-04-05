@@ -76,8 +76,7 @@ section{
     margin: 30px;
     max-width: 500px;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
-    align-items: center;
-    
+    align-items: center; 
 }
 .profile{
     display: flex;
@@ -102,6 +101,7 @@ figcaption{
 .buy-icons{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .buy-icons div{
     margin:  10px 90px;
@@ -123,7 +123,6 @@ figcaption{
     font-weight: bold;
     font-family: sans-serif;
     cursor: pointer;
-    height: 90px;
     text-decoration: none;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
     border-radius: 58px;
@@ -131,6 +130,9 @@ figcaption{
 .official-site{
     text-align: center;
     margin: 80px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .official-site a:hover{
     background: #5CA5B7;
@@ -185,3 +187,37 @@ footer a:hover{
 .fb-ic:hover{
     color: #3d5b99;
 }
+@media(max-width: 767px) {
+    section{
+        margin: 10px;
+        padding: 20px;
+    }
+    blockquote{
+        max-height: 250px;
+    }
+    #about-paragraph{
+        margin: 40px;
+    }
+    .official-site a{
+        font-size: 16px;
+        margin: 10px 20px;
+    }
+    .author-bg{
+        margin: 40px;
+    }
+    .author-bg h1{
+        line-height: 1;
+    }
+    .social-bx{
+        flex-direction: column;
+        
+    }
+    .social-bx a{
+       
+        text-align: center;
+        border-radius: 0;
+        margin: 10px;
+        justify-content: center;
+    }
+}
+  
