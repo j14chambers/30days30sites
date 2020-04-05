@@ -8,15 +8,17 @@ body{
 }
 /* TAGS */
 h1{
-    font-size: 35px;
+    font-size: 55px;
     color: #8B6654;
     font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
 }
 
 h2{
     color: black;
-    font-size: 20px;
+    font-size: 40px;
     font-family: sans-serif;
+    margin: 0;
 }
 p{
     font-size: 20px;
@@ -44,11 +46,12 @@ img{
 	background-size: cover;
 	background-position: center;
 }
-.content{
+
+section{
+    margin: 10px;
     padding: 40px;
-    margin:0;
 }
-#about-paragraph{
+#about-paragraph, .author-bg{
     background: #5CA5B7;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
     color: white;
@@ -96,40 +99,67 @@ blockquote{
 figcaption{
     margin-left: 20px;
 }
-.author-bg{
-    padding: 40px;
-    margin:0;
+.buy-icons{
+    display: flex;
+    justify-content: center;
 }
-
-
+.buy-icons div{
+    margin:  10px 90px;
+    text-align: center;
+}
+.buy h2{
+    color: #326573;
+}
+.buy a{
+    color: #326573;
+    text-decoration: none;
+}
 footer{
-    padding: 20px;
-    margin:0;
+    padding: 40px;
+    margin: 15px;
 }
 footer p{
-    font-size: 15px;
+    font-size: 18px;
+}
+footer a{
+    color: currentColor;
+    text-decoration: none;
+    font-size: 18px;
+}
+footer a:hover{
+    color: #8B6654
 }
 
 /* SOCIAL MEDIA BUTTONS*/
 
-#index .social-bx{
+.social-bx{
     padding: 15px;
     margin: 5px;
+    display: flex;
 }
 
-#index .fb-ic {
+.fb-ic {
     background-color: #3d5b99;
     color: white;
     padding: 4px;
 }
 
-#index .tw-ic {
+.tw-ic {
     background-color: #00aced;
     color: white;
     padding: 4px;
 }
-#index .icons-sm{
+.icons-sm{
     padding: 15px;
-    margin-left: 10px;
-    border-radius: 5px;
+    margin-left: 15px;
+    border-radius: 25%;
+}
+.icons-sm:hover{
+    background-color: white;
+}
+.tw-ic:hover{
+    color: #00aced;
+}
+.fb-ic:hover{
+    color: #3d5b99;
 }
