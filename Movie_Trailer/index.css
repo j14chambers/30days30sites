@@ -9,7 +9,7 @@ body{
     margin: 30px;
 }
 h1{
-	text-align: left;
+	/* text-align: left; */
 	font-size: 150px;
 	color: #C2C2C2;
 	font-family: 'Orbitron', sans-serif;
@@ -48,7 +48,7 @@ img{
 }
 a{
     text-decoration: none;
-    color: #de9a0c;
+    color: #C2C2C2;
     list-style: none;
     font-family: 'Orbitron', sans-serif;
 	font-size: 30px;
@@ -78,7 +78,13 @@ header{
 .navbar li:nth-child(3) ul{
     display: none;
 }
-
+.active{
+    border-bottom: #de9a0c 2px solid;
+    color: #DE9A0C;
+}
+a:hover{
+    color: #000;
+}
 .about-section{
     clear: both;
     display: flex;
@@ -143,15 +149,40 @@ img {
     body{
         margin: 10px;
     }
+    header{
+        display: initial;
+    }
+    header h1{
+        font-size: 70px;
+        display: initial;
+        text-align: center;
+        margin: 10px;
+    }
+
     .navbar{
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .navbar li{
+        padding: 10px 15px;
+        margin: 0;
+    }
+    .about-section img{
+        margin: 0;
+        width: 100%;
     }
 	.actor-name{
-		padding-left: 40px;
+        padding: 15px;
+        padding-left: 40px;
+        margin-left: 40px;
+        min-width: 220px;
+    }
+    .actor-name h3{
+        font-size: 32px;
     }
     .about-section{
         display: initial;
