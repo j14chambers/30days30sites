@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Economica|Orbitron:900|Teko:300');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+body{
+    background-color: #a80900;
+    margin: 30px;
+}
+h1{
+	text-align: left;
+	font-size: 150px;
+	color: #C2C2C2;
+	font-family: 'Orbitron', sans-serif;
+}
+h2{
+	font-family: 'Teko', sans-serif;
+	font-size: 90px;
+	color: white;
+}
+
+h3{
+	font-family: 'Teko', sans-serif;
+	font-size: 50px;
+	color: black;
+}
+h4{
+	font-family: 'Teko', sans-serif;
+	font-size: 40px;
+	color: C2C2C2;
+}
+h5{
+	font-family: 'Economica', sans-serif;
+	font-size: 20px;
+	color: C2C2C2;
+}
+
+p{
+	font-family: 'Economica', sans-serif;
+	font-size: 23px;
+    color: #DE9A0C;
+    
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+    color: #de9a0c;
+    list-style: none;
+    font-family: 'Orbitron', sans-serif;
+	font-size: 30px;
+	padding: 10px 20px;
+	margin:  10px;
+}
+header{
+    display: flex;
+}
+.navbar{
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    
+}
+.navbar ul{
+    background: #A80900;
+    box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    
+}
+.navbar li{
+    padding: 10px; 
+    display: flex;
+}
+.navbar li:nth-child(3) ul{
+    display: none;
+}
+
+.about-section{
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#banner-img{
+    flex: 2;
+}
+.about-text{
+    flex: 1;
+    margin: 20px;
+}
+
+.main-cast{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.main-cast h2{
+    width: 100%;
+}
+.card{	
+	margin: 20px;
+	box-sizing: box;
+}
+img {
+	width: 100%;
+	height: 100%;	
+}
+.actor-img {
+	width: 250px;
+	height: 350px;
+}
+.actor-name {
+	font-size: 24px;
+	background: #de9a0c;
+	max-width: 250px;
+	text-align: left;
+	padding: 10px;
+	padding-left: 80px;
+	margin-left: 60px;
+	
+	position: relative;
+	bottom: 40px;
+	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.card h3 {
+	font-size: 36px;
+	color: #000;	
+}
+.card h4 {
+	font-size: 34px;
+	text-align: right;
+	/* margin-top: 10px;
+	padding-bottom: 10px; */
+	color: rgba(41, 43, 44, 0.78);
+}
+
+@media (max-width: 767px) {
+    body{
+        margin: 10px;
+    }
+    .navbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+	.actor-name{
+		padding-left: 40px;
+    }
+    .about-section{
+        display: initial;
+    }
+  
+}

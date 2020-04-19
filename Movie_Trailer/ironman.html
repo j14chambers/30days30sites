@@ -3,122 +3,86 @@
     <head>
         <meta charset="UTF-8">
         <title>Iron Man</title>
-        <link rel="stylesheet" href="ironman.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link rel="stylesheet" href="ironman.css"> -->
+        <link rel="stylesheet" href="index.css">
         
-        <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+        <!-- <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'> -->
         <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
         <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
         
     </head>
 
-<body id="index" class="body">
-    <div>
-        <h1> Iron Man </h1>
-    </div>
-    
-    <!-- MENU BAR -->
-    <div class="menu-btn-border">
-        <ul id="drop-nav">
-
-            <li><a href="ironman.html" class="myButton">Home</a></li>
-            <li><a href="cast.html" class="myButton">Cast</a></li>
-            <li><a href="#" class="myButton">Movies</a>
-                <ul>
-                    <li> <a href="ironman1.html" class="myButton">Iron Man </a> </li>
-                    <li> <a href="ironman2.html" class="myButton">Iron Man 2</a> </li>
-                    <li> <a href="ironman3.html" class="myButton">Iron Man 3</a> </li>
-                </ul>
-            </li>
-         </ul>
-
-    </div>
-    <!-- MENU BAR -->
+<body>
+    <header>
+        <!-- MENU BAR -->
+            <ul class="navbar">
+                <li><a href="ironman.html" class="myButton">Home</a></li>
+                <li><a href="cast.html" class="myButton">Cast</a></li>
+                <li><a href="movies.html" class="myButton">Movies</a>
+                    <ul>
+                        <li> <a href="ironman1.html" class="myButton">Iron Man </a> </li>
+                        <li> <a href="ironman2.html" class="myButton">Iron Man 2</a> </li>
+                        <li> <a href="ironman3.html" class="myButton">Iron Man 3</a> </li>
+                    </ul>
+                </li>
+             </ul>
+             <div>
+                <h1> Iron Man </h1>
+            </div>
+        <!-- MENU BAR -->
+    </header>
+   
 
 
     <!-- ABOUT SECTION-->
-    <div class="row">
-        <div class="col-md-8" id="banner-img">
+    <section class="about-section">
+        <div id="banner-img">
             <img src="https://dreager1.files.wordpress.com/2012/05/irom-man-artwork-inspiration-33.jpg">
         </div>
-        <div class="col-md-4">
-        <h2> About</h2>
-        <p> A fictional superhero appearing in American comic books published by Marvel Comics. The character was created by writer and editor Stan Lee, developed by scripter Larry Lieber, and designed by artists Don Heck and Jack Kirby. The character made his first appearance in Tales of Suspense #39.</p>
+        <div class="about-text">
+            <h2> About</h2>
+            <p> A fictional superhero appearing in American comic books published by Marvel Comics. The character was created by writer and editor Stan Lee, developed by scripter Larry Lieber, and designed by artists Don Heck and Jack Kirby. The character made his first appearance in Tales of Suspense #39.</p>
         
-        <p>In Iron Man, Tony Stark, an industrialist and master engineer, builds a powered exoskeleton and becomes the technologically advanced superhero Iron Man.</p>
+            <p>In Iron Man, Tony Stark, an industrialist and master engineer, builds a powered exoskeleton and becomes the technologically advanced superhero Iron Man.</p>
         </div>
-        <div class="row">
-            <div class="col-md-4">
-                <h3> Iron Man </h3>
-                <p> Directed by: Jon Favreau <br>
-                    Produced by: Avi Arad and Kevin Feige <br> 
-                    Production company: Marvel Studios and Fairview Entertainment <br>
-                    Distributed by:	Paramount Pictures <br>
-                    Release date: May 2, 2008</p>
-            </div>
-            <div class="col-md-4">
-                <h3> Iron Man 2 </h3>
-                <p> Directed by: Jon Favreau <br>
-                    Produced by: Kevin Feige <br> 
-                    Production company: Marvel Studios and Fairview Entertainment <br>
-                    Distributed by:	Paramount Pictures <br>
-                    Release date: May 7, 2010</p>
-            </div>
-            <div class="col-md-4">
-                <h3> Iron Man 3 </h3>
-                <p> Directed by: Shan Black <br>
-                    Produced by: Kevin Feige <br> 
-                    Production company: Marvel Studios and Fairview Entertainment <br>
-                    Distributed by:	Walt Disney Studios and Motion Pictures <br>
-                    Release date: May 3, 2013</p>
-            </div>
-        </div>
-    </div>
+       
+    </section>
     <!-- ABOUT SECTION -->
 
     <!-- CAST SECTION-->
-    <div>
-        <div id="Cast">
-           <a href="Cast"></a>
-        </div>
-        
+    <section class="main-cast"> 
         <h2> MAIN CAST </h2>
-        <div class="row row-h">
-            <div class="col-md-8 col-xs-6">
-                <img src="http://images4.fanpop.com/image/photos/19300000/Tony-Stark-robert-downey-jr-19390461-1440-900.jpg">
-            </div>
-             <div class="col-md-4 col-xs-6">
-                <h3> Anthony 'Tony' Stark </h3>
-                <h4> Robert Downey, Jr. </h4>
-            </div>
+        <div class='card'>
+            <div class="actor-img"><img src="https://hips.hearstapps.com/digitalspyuk.cdnds.net/18/09/1519821818-iron-man-worried-avengers-robert-downey-jr.jpg?crop=0.5373134328358209xw:1xh;center,top&resize=480:*" alt=""></div>
+            <div class="actor-name">
     
+                <h3>Anthony 'Tony' Stark</h3>
+                <h4>Robert Downey, Jr.</h4>
+    
+            </div>
         </div>
+        <div class='card'>
+            <div class="actor-img"><img src="https://lh3.googleusercontent.com/proxy/soeOBu4wmXxIIVh-Ydt2at3MswOTwzcwwg5JXHbA8193TPiEcItc96SyO8JYtnfe5Ej0pc-6Y-eV5eTIBMinnhpDcRvlDgnVfjW5kVksgbVqpfB_bg" alt=""></div>
+            <div class="actor-name">
+    
+                <h3>James 'Rhodey' Rhodes</h3>
+                <h4>Don Cheadle</h4>
+    
+            </div>
+        </div>
+        <div class='card'>
+            <div class="actor-img"><img src="https://s3.r29static.com/bin/entry/9d3/x,80/2174391/image.jpg" alt=""></div>
+            <div class="actor-name">
+    
+                <h3>Virgina 'Pepper' Potts</h3>
+                <h4>Gwyneth Paltrow</h4>
+    
+            </div>
  
-        <div class="row row-h" style="clear: both; margin-bottom: 20px;">
-            <div class="col-md-6">
-                <div class="col-md-12 col-xs-9">
-                    <h3> Virginia 'Pepper' Potts </h3>
-                    <h4> Gwyneth Paltrow </h4>
-                </div>
-                <div class="col-md-10" style ="height: 390px; width: 390px" >
-                    <img src="https://s-media-cache-ak0.pinimg.com/originals/c0/10/01/c010019f5647869222597f278937ca46.jpg">
-                </div>
-            </div>
-            
-            <div class="col-md-6" style="clear: both;">
-                <div class="col-md-12 col-xs-6">
-                    <div class="col-md-12 col-xs-6">
-                        <h3>James 'Rhodey' Rhodes </h3>
-                        <h4> Don Cheadle </h4>
-                    </div>
-                    <div class="col-md-10" style ="height: 390px; width: 370px">
-                        <img src="https://vignette2.wikia.nocookie.net/marvelmovies/images/d/df/Rhodey_IM2.jpg/revision/latest?cb=20120212144846">
-                    </div>
-                </div>
-                
-            </div>
-        </div>
         
-    </div>
+        
+    </section>
     <!-- CAST SECTION -->
 
 <!-- FOOTER -->

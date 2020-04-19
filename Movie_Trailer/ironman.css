@@ -5,7 +5,7 @@
 	margin: 30px;
 	
 }
-#index footer{
+footer{
     margin: 0;
 }
 
@@ -30,37 +30,6 @@
 	background-size: 100%;
 	padding-top: 800px;
 	padding-bottom: 100px;
-}
-#index .tony-img{
-	background-image:url('http://xdesktopwallpapers.com/wp-content/uploads/2012/07/The%20Avengers%20-%20Robert%20Downey%20Jr.%20Tony%20Stark.jpg');
-	background-repeat:no-repeat;
-	background-position: top center;
-    line-height: 1.6;
-	background-size: 88%;
-	padding-top: 100px;
-	padding-bottom: 100px;
-    width: 60%;
-}
-
-.potts-img{
-	background-image:url('https://s-media-cache-ak0.pinimg.com/736x/58/ce/29/58ce29bca641f3d0301fbf7bb780fe4f.jpg');
-	background-repeat:no-repeat;
-	background-position: top center;
-  line-height: 1.6;
-	background-size: 90%;
-	padding-top: 100px;
-	padding-bottom: 400px;
-    width: 100%;
-}
-
-.james-img{
-	background-image:url('http://razoofoundation.org/wp-content/uploads/2011/12/Iron-Man-2-International-Poster-Don-Cheadle-as-James-Rhodes-14-4-10-kc.jpg');
-	background-repeat:no-repeat;
-	background-position: top center;
-  line-height: 1.6;
-	background-size: 76%;
-	padding-top: 100px;
-	padding-bottom: 400px;
 }
 
 .man-3-img{
@@ -105,40 +74,6 @@
 img{
     width: 100%;
     height: 100%;
-}
-
-#index h1{
-	text-align: left;
-	font-size: 150px;
-	color: #C2C2C2;
-	font-family: 'Orbitron', sans-serif;
-}
-#index h2{
-	font-family: 'Teko', sans-serif;
-	font-size: 90px;
-	color: white;
-}
-
-#index h3{
-	font-family: 'Teko', sans-serif;
-	font-size: 50px;
-	color: black;
-}
-#index h4{
-	font-family: 'Teko', sans-serif;
-	font-size: 40px;
-	color: C2C2C2;
-}
-#index h5{
-	font-family: 'Economica', sans-serif;
-	font-size: 20px;
-	color: C2C2C2;
-}
-
-#index p{
-	font-family: 'Economica', sans-serif;
-	font-size: 23px;
-	color: #DE9A0C;
 }
 
 #index .black-box{
