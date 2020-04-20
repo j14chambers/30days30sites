@@ -6,7 +6,7 @@
 }
 body{
     background-color: #a80900;
-    margin: 30px;
+    
 }
 h1{
 	/* text-align: left; */
@@ -42,6 +42,16 @@ p{
     color: #DE9A0C;
     
 }
+section, header{
+    margin: 30px;
+}
+footer{
+    background: #DE9A0C;
+    margin: 0;
+}
+footer h5{
+    padding: 25px 15px;
+}
 img{
     width: 100%;
     height: 100%;
@@ -58,7 +68,11 @@ a{
 header{
     display: flex;
 }
+header h1{
+    order: 2;
+}
 .navbar{
+    order: 1;
     display: flex;
     float: left;
     justify-content: center;
@@ -149,31 +163,33 @@ img {
     body{
         margin: 10px;
     }
+    header h1{
+        font-size: 64px;
+        text-align: right;
+        margin: 10px;
+    }
     header{
         display: initial;
-    }
-    header h1{
-        font-size: 70px;
-        display: initial;
-        text-align: center;
-        margin: 10px;
     }
 
     .navbar{
         display: flex;
-        justify-content: center;
-        align-items: center;
+        align-items: baseline;
         flex-direction: column;
         flex-wrap: wrap;
         width: 100%;
     }
     .navbar li{
-        padding: 10px 15px;
+        padding: 0px 80px;
         margin: 0;
+    }
+    .navbar a{
+        text-align: left;
     }
     .about-section img{
         margin: 0;
         width: 100%;
+        display: none;
     }
 	.actor-name{
         padding: 15px;
