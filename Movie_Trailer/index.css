@@ -80,7 +80,6 @@ header h1{
 .navbar{
     order: 1;
     display: flex;
-    float: left;
     justify-content: center;
     align-items: center;
     
@@ -166,11 +165,9 @@ img {
 }
 
 @media (max-width: 767px) {
-    body{
-        margin: 10px;
-    }
+
     header h1{
-        font-size: 64px;
+        font-size: 50px;
         text-align: right;
         margin: 10px;
     }
