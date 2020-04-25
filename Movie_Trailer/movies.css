@@ -1,0 +1,66 @@
+body{
+    background: white;
+
+}
+header{
+    margin-bottom: 0;
+    margin: 0;
+    background-color: #a80900;
+}
+section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: #a80900;
+    grid-gap: 1em; 
+    padding: 20px;
+}
+section h1{
+    grid-column: 1/4;
+    grid-row: 1;
+    font-size: 80px;
+    text-align: center;
+}
+.movie-poster{
+    grid-column: 1/2;
+    grid-row: 2;
+}
+p{
+    grid-column: 2/4;
+    grid-row: 2/3;
+    font-size: 30px;
+    justify-self: center;
+    padding: 35px;
+    
+}
+.movie-titles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 3;
+}
+.movie-titles li{
+    padding: 10px; 
+    display: flex;
+}
+.movie-titles a{
+    color: #000;
+}
+.movie-titles a:hover{
+    color: #de9a0c;
+    border-bottom: #de9a0c 2px solid;
+}
+
+@media (max-width: 767px) {
+    body{
+        background: #a80900;
+    }
+ section{
+     display: initial;
+ }
+ section h1{
+      font-size: 60px;
+ }
+ .movie-titles{
+     display: none;
+ }
+}

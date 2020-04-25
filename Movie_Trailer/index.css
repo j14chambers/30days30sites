@@ -94,9 +94,7 @@ header h1{
     padding: 10px; 
     display: flex;
 }
-.navbar li:nth-child(3) ul{
-    display: none;
-}
+
 .active{
     border-bottom: #de9a0c 2px solid;
     color: #DE9A0C;
