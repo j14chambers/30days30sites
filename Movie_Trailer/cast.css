@@ -1,3 +1,6 @@
+section{
+    margin: 20px;
+}
 .row{
     display: flex;
     padding: 50px 0;
@@ -13,13 +16,19 @@
 .row img{
     width: 80%;
 }
-.row-img:nth-child(1) img{
+body > section:nth-child(2) > div:nth-child(2) > div:nth-child(1) > img:nth-child(1) {
     width: 100%;
+    height: 100%;
    }
+   
    
 .actor{
     padding: 20px;
     flex: 1;
+    background: #de9a0c;
+}
+.actor p{
+    color: #fff;
 }
 
 .cast-row-2{
@@ -31,18 +40,33 @@
     flex-direction: column;
     margin: 20px;
 }
+.row-2 .actor, .row-2 img{
+    width: 400px;
+    box-sizing: border-box;
+}
 .cast-row-2 .row{
     padding: 0;
 }
+.cast-row-2 h3{
+    font-size: 45px;
+}
+.cast-row-2 h4{
+    font-size: 30px;
+}
 
 .row-img-2{
-    height: 240px;
-    width: 370px;
+    height: 400px;
     flex: 1;
 }
 
 
+
+
 @media (max-width: 767px) {
+    body > section:nth-child(2) {
+        margin: 0;
+       }
+       
     .row{
         flex-direction: column;
         padding: 20px 0;
@@ -55,10 +79,20 @@
     .cast-row-2{
         display: initial;
     }
+    .row-2 .actor, .row-2 img{
+        width: 100%;
+        box-sizing: border-box;
+    }
     .row-2{
         margin: 20px 0;
     }
     .row-img-2{
         width: 100%;
+    }
+    img{
+        min-height: 300px;
+    }
+    .section-3 .row-2{
+        flex-direction: column;
     }
 }
