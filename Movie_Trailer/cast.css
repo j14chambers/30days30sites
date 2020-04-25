@@ -62,7 +62,7 @@ body > section:nth-child(2) > div:nth-child(2) > div:nth-child(1) > img:nth-chil
 
 
 
-@media (max-width: 767px) {
+@media (min-width: 767px) and (max-width: 1024px) {
     body > section:nth-child(2) {
         margin: 0;
        }

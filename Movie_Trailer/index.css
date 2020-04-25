@@ -162,7 +162,7 @@ img {
 	color: rgba(41, 43, 44, 0.78);
 }
 
-@media (max-width: 767px) {
+@media (min-width: 767px) and (max-width: 1024px) {
 
     header h1{
         font-size: 50px;

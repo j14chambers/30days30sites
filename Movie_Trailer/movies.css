@@ -50,7 +50,7 @@ p{
     border-bottom: #de9a0c 2px solid;
 }
 
-@media (max-width: 767px) {
+@media (min-width: 767px) and (max-width: 1024px) {
     body{
         background: #a80900;
     }
