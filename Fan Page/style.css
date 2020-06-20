@@ -1,0 +1,80 @@
+body{
+			width: 100%;
+			color: white;
+			font-size: 18px;
+    		font-family: 'Poiret One', cursive;
+    		background-color: black;
+    		margin: 0;
+		}
+		h2{
+			font-size: 40px;
+			font-family: 'Righteous', cursive;
+		}
+		h3{
+			font-size: 30px;
+			text-align: center;
+			font-family: 'Audiowide', cursive;
+		}
+		h4{
+			font-size: 25px;
+			font-family: 'Audiowide', cursive;
+		}
+
+		p{
+			padding: 10px;
+			margin: 10px 5px;
+			font-size: 20px;
+		}
+		header,footer{
+			background-color: black;
+		}
+		section{
+			margin: 0;
+		}
+		header img{
+			margin: auto 80px;
+		}
+		.albums img{
+			height: 200px;
+			width: 300px;
+		}
+		.albums, .band, .images{
+			display: flex;
+			flex-basis: 100%;
+      flex-wrap: wrap;
+		}
+		.flex-1, .images img{
+			flex: 1;
+		}
+		.flex-1 img{
+			width: 100%;
+			height: 350px;
+		}
+		.music, .about{
+			background-color: #1E223D;
+			padding: 20px;
+		}
+		ul{
+			text-align: center;
+			padding: 0;
+		}
+		ul li{
+			list-style: none;
+			font-size: 20px;
+		}
+		.albums li{
+			font-family: 'Audiowide', cursive;
+			font-size: 22px;
+		}
+		.band-members li{
+			display: inline-block;
+			background-color: #101229;
+			padding: 5px 10px;
+			text-align: center;
+			margin: 5px;
+			border-radius: 10px;
+			flex-flow: row wrap;
+			justify-content: center;
+			margin-left: 5px;
+			margin-bottom: 10px;
+		}
