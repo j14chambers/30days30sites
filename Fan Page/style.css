@@ -12,6 +12,7 @@ h2{
 }
 h3{
 	font-size: 30px;
+	margin: 0;
 	text-align: center;
 	font-family: 'Audiowide', cursive;
 }
@@ -28,6 +29,13 @@ p{
 header,footer{
 	background-color: black;
 }
+footer a{
+	text-decoration: none;
+	color: white;
+}
+footer a:hover{
+	color: #7680BC;
+}
 section{
 	margin: 0;
 }
@@ -40,11 +48,14 @@ header img{
 	background-color: #1E223D;
 	padding: 20px;
 }
+.band-members h2, .albums h2{
+	padding: 20px;
+}
 .band{
 	display: flex;
-	flex-wrap: wrap;
-	
+	flex-wrap: wrap;	
 }
+
 .flex-1{
 	display: flex;
 	flex-basis: 50%;
@@ -61,7 +72,7 @@ header img{
 	width: 40%;
 }
 
-ul{
+ul, ol{
 	text-align: center;
 	padding: 0;
 }
@@ -71,11 +82,15 @@ ul li{
 }
 .albums li{
 	font-family: 'Audiowide', cursive;
-	font-size: 22px;
+	font-size: 20px;
+}
+.albums h3{
+	font-size: 40px;
+	text-decoration: underline;
+	padding-bottom: 10px;
 }
 .band-members li{
 	padding: 0;
-	margin: 40px;
 	font-size: 25px;
 	text-align: center;
 }
@@ -86,11 +101,13 @@ ul li{
 .albums h2{
 	grid-column: 1;
 }
+
 /* Overlay Images*/
 .container {
 	position: relative;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-around;
+	flex-basis: 90%;
 
   }
   .container:nth-child(2){
@@ -121,9 +138,6 @@ ul li{
 	transition: .5s ease;
   }
   
-  .container:hover .overlay {
-	height: 100%;
-  }
   
   .container ul {
 	color: white;
@@ -147,3 +161,51 @@ ul li{
 	  height: 400px;
 	  width: 400px;
   }
+@media (min-width: 801px){
+	.container:hover .overlay {
+		height: 100%;
+	  }
+}
+@media  (max-width: 800px) {
+
+  header img{
+	  width: 100%;
+	  margin: 0;
+  }
+  .flex-1{
+	  flex-basis: 100%;
+  }
+  .albums{
+		display: grid;
+		grid-template-columns: repeat(1, 1fr); 
+	}
+	.container:nth-child(2){
+		grid-column: 1;
+		grid-row: 2;
+	}
+	.container:nth-child(3){
+		grid-column: 1;
+		grid-row: 3;
+	}
+	.container:nth-child(4){
+		grid-column: 1;
+		grid-row: 4;
+	}
+	.container{
+		position: relative;
+	}
+	.overlay{
+		position: absolute;
+		height: auto;
+		background-color: rgba(30, 34, 61, 0.1);
+		color: rgba(255, 255, 255, 1);
+		
+	}
+	.albums img{
+		opacity: .5;
+	}
+	.albums h3{
+		display: hidden;
+		color: transparent;
+	}
+}
