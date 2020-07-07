@@ -114,7 +114,7 @@ ul li{
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background-color: #008CBA;
+	background-color: #1E223D;
 	overflow: hidden;
 	width: 100%;
 	height: 0;
@@ -135,4 +135,15 @@ ul li{
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 	text-align: center;
+  }
+
+  .images{
+	  display: flex;
+	  flex-wrap: wrap;
+	  justify-content: center;
+	  margin-top: 50px;
+  }
+  .images img{
+	  height: 400px;
+	  width: 400px;
   }
