@@ -99,3 +99,27 @@ footer p {
   font-size: 18px;
   padding: 20px;
 }
+
+@media (min-width: 768px) {
+  .box {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .box .col {
+    display: flex;
+    width: 45%;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+
+  #description {
+    margin-bottom: 60px;
+  }
+  #description p {
+    margin: auto 15%;
+  }
+}
