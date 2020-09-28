@@ -1,5 +1,6 @@
 $primary-color:#F2C078;
 $secondary-color: #424242;
+
 * {
     padding: 0;
     margin: 0;
@@ -10,13 +11,16 @@ body {
     font-size: 20px;
     font-family: Roboto;
 }
-h1{
+
+h1 {
     color: rgba(241, 242, 244, 0.78);
     font-weight: bold;
 }
+
 header {
     background-color: black;
 }
+
 .header-img {
     background-image: url("https://images.unsplash.com/photo-1585861108638-acfd851467a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
     background-repeat: no-repeat;
@@ -26,7 +30,7 @@ header {
 }
 
 nav {
-    background: rgba(0, 0, 0, 0.37);
+    background: rgba(0, 0, 0, 0.691);
     color: #C09862;
     padding: 20px 0;
     display: flex;
@@ -42,7 +46,8 @@ nav {
     div {
         display: flex;
         align-items: flex-end;
-        h1{
+
+        h1 {
             margin-left: 15px;
         }
     }
@@ -51,6 +56,52 @@ nav {
         list-style: none;
         padding: 10px;
         font-weight: bold;
-        
+
+    }
+}
+
+#form {
+    display: flex;
+    height: 500px;
+    align-items: center;
+
+}
+
+.text-form {
+    background: white;
+    color: black;
+    font-size: 36px;
+    padding: 30px;
+    p{
+        padding: 30px;
+    }
+    p:nth-child(2){
+        font-weight: bold;
+        line-height: 48px;
+        margin-top: 30px;
+        font-size: 40px;
+    }
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $secondary-color;
+    width: 100%;
+    flex: 2;
+
+    input {
+        width: 334px;
+        height: 62px;
+        border-radius: 25px;
+        box-shadow:0px 5px 10px rgba(0, 0, 0, 0.73);
+        text-align: center;
+        margin: 30px;
+        font-size: 24px;
+    }
+    a{
+        align-self: flex-end;
+        padding: 15px;
     }
 }
